@@ -1,4 +1,462 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>首页 on Hugo Fluid 博客</title><link>https://hugo-fluid.github.io/zh/</link><description>Recent content in 首页 on Hugo Fluid 博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-fluid.github.io/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>多语言配置与语言切换指南</title><link>https://hugo-fluid.github.io/zh/post/language-switch-guide/</link><pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/language-switch-guide/</guid><description>&lt;p>Hugo Theme Fluid 提供了完整的多语言支持，让你可以轻松创建多语言博客。本文将详细介绍如何配置和使用语言切换功能。&lt;/p></description></item><item><title>Banner 背景图片配置完全指南</title><link>https://hugo-fluid.github.io/zh/post/banner-customization-guide/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/banner-customization-guide/</guid><description>&lt;p>本文将详细介绍如何为 Hugo Fluid 主题配置自定义 Banner 背景图片，包括使用 AI 生成图片、压缩优化、以及配置到主题中的完整流程。&lt;/p></description></item><item><title>导航栏子菜单配置指南</title><link>https://hugo-fluid.github.io/zh/post/submenu-guide/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/submenu-guide/</guid><description>&lt;p>Hugo Theme Fluid 支持导航栏下拉子菜单功能，让你可以更好地组织导航链接。本文将详细介绍如何配置和使用子菜单功能。&lt;/p></description></item><item><title>页脚配置指南</title><link>https://hugo-fluid.github.io/zh/post/footer-guide/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/footer-guide/</guid><description>&lt;p>本文介绍如何配置 Hugo Fluid 主题的页脚组件，包括自定义内容、PV/UV 统计和备案信息。&lt;/p></description></item><item><title>自定义页面配置与使用指南</title><link>https://hugo-fluid.github.io/zh/post/custom-page-guide/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/custom-page-guide/</guid><description>&lt;p>Hugo Theme Fluid 支持创建各种自定义页面，如文档页、社群页、服务条款页等。本文将详细介绍如何配置和使用自定义页面功能。&lt;/p></description></item><item><title>代码块功能演示</title><link>https://hugo-fluid.github.io/zh/post/code-block-demo/</link><pubDate>Mon, 23 Dec 2024 10:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/code-block-demo/</guid><description>&lt;p>本文展示 Hugo Fluid 主题的代码块功能。&lt;/p></description></item><item><title>锚点链接功能演示</title><link>https://hugo-fluid.github.io/zh/post/anchorjs-demo/</link><pubDate>Fri, 20 Dec 2024 10:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/anchorjs-demo/</guid><description>&lt;p>本文演示 Hugo Theme Fluid 的锚点链接功能。锚点链接可以让你方便地分享文章的特定章节。&lt;/p></description></item><item><title>图片懒加载演示</title><link>https://hugo-fluid.github.io/zh/post/lazyload-demo/</link><pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/lazyload-demo/</guid><description>&lt;p>这篇文章演示了图片懒加载功能。向下滚动页面，观察图片是如何按需加载的。&lt;/p></description></item><item><title>分页测试文章 6</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-6/</link><pubDate>Tue, 06 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-6/</guid><description>&lt;p>这是分页测试文章 6。&lt;/p></description></item><item><title>分页测试文章 5</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-5/</link><pubDate>Mon, 05 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-5/</guid><description>&lt;p>这是分页测试文章 5。&lt;/p></description></item><item><title>分页测试文章 4</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-4/</link><pubDate>Sun, 04 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-4/</guid><description>&lt;p>这是分页测试文章 4。&lt;/p></description></item><item><title>分页测试文章 3</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-3/</link><pubDate>Sat, 03 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-3/</guid><description>&lt;p>这是分页测试文章 3。&lt;/p></description></item><item><title>分页测试文章 2</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-2/</link><pubDate>Fri, 02 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-2/</guid><description>&lt;p>这是分页测试文章 2。&lt;/p></description></item><item><title>分页测试文章 1</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-1/</link><pubDate>Thu, 01 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-1/</guid><description>&lt;p>这是分页测试文章 1。&lt;/p></description></item><item><title>打字机效果配置指南</title><link>https://hugo-fluid.github.io/zh/post/typing-effect-guide/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/typing-effect-guide/</guid><description>&lt;p>本文介绍如何在 Hugo Fluid 主题中配置和使用打字机效果。&lt;/p></description></item><item><title>Mermaid 流程图使用指南</title><link>https://hugo-fluid.github.io/zh/post/mermaid-demo/</link><pubDate>Tue, 16 Jan 2024 10:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/mermaid-demo/</guid><description>&lt;p>本文详细介绍 Hugo Fluid 主题的 Mermaid 流程图功能，包括配置方法、语法说明和丰富的示例。&lt;/p></description></item><item><title>数学公式使用指南</title><link>https://hugo-fluid.github.io/zh/post/math-demo/</link><pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/math-demo/</guid><description>&lt;p>本文详细介绍 Hugo Fluid 主题的数学公式功能，包括配置方法、语法说明和丰富的示例。&lt;/p></description></item><item><title>Hugo Fluid 主题使用指南</title><link>https://hugo-fluid.github.io/zh/post/getting-started/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/getting-started/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>首页 on Hugo Fluid 博客</title><link>https://hugo-fluid.github.io/zh/</link><description>Recent content in 首页 on Hugo Fluid 博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-fluid.github.io/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>配置指南</title><link>https://hugo-fluid.github.io/zh/docs/config/</link><pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/docs/config/</guid><description>&lt;h1 id="配置指南">配置指南&lt;/h1>
+&lt;p>本页面详细介绍 Hugo Fluid 主题的各项配置选项。&lt;/p>
+&lt;h2 id="基础配置">基础配置&lt;/h2>
+&lt;h3 id="hugo-配置-hugotoml">Hugo 配置 (hugo.toml)&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">baseURL&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;https://example.com/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">title&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;我的博客&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">theme&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;hugo-theme-fluid&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 默认语言&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">defaultContentLanguage&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;zh&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">defaultContentLanguageInSubdir&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># CJK 语言支持&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">hasCJKLanguage&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 输出格式&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">outputs&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">home&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;HTML&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;RSS&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;JSON&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">section&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;HTML&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;RSS&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">taxonomy&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;HTML&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">term&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;HTML&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="主题参数-paramstoml">主题参数 (params.toml)&lt;/h3>
+&lt;h4 id="全局配置">全局配置&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 网站图标&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">favicon&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;/img/fluid.png&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">apple_touch_icon&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;/img/fluid.png&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 站点描述&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">description&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;一个优雅的 Material Design 风格博客&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">author&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Your Name&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 代码块配置&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">code&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">copy_btn&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">code&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">language&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">default&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;TEXT&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">code&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">highlight&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">line_number&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="主题颜色">主题颜色&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">color&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">body_bg_color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;#eee&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">body_bg_color_dark&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;#181c27&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">navbar_bg_color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;#2f4154&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">navbar_bg_color_dark&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;#1f3144&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">text_color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;#3c4858&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">text_color_dark&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;#c4c6c9&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">link_color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;#0366d6&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">link_color_dark&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;#1589e9&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="深色模式">深色模式&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">dark_mode&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">default&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;auto&amp;#34;&lt;/span> &lt;span class="c"># auto | light | dark&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="页面配置">页面配置&lt;/h2>
+&lt;h3 id="首页配置">首页配置&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">index&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_img&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;/img/home.webp&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_img_height&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">100&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_mask_alpha&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mf">0.3&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">index&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">slogan&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"># 标语文本在语言特定配置中设置&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">index&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">post_meta&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">date&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">category&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">tag&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="文章页配置">文章页配置&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">post&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_img&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;/img/post.webp&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_img_height&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">70&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_mask_alpha&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mf">0.3&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">post&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">toc&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">placement&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;right&amp;#34;&lt;/span> &lt;span class="c"># left | right&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">headingSelector&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;h1,h2,h3,h4,h5,h6&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">collapseDepth&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">post&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">copyright&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">license&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;BY&amp;#34;&lt;/span> &lt;span class="c"># BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND | ZERO&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">post&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">comments&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">type&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;giscus&amp;#34;&lt;/span> &lt;span class="c"># utterances | disqus | gitalk | valine | waline | giscus&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="归档页配置">归档页配置&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">archive&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_img&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;/img/archive.webp&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_img_height&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">60&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_mask_alpha&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mf">0.3&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="分类页配置">分类页配置&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">category&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_img&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;/img/category.webp&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_img_height&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">60&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_mask_alpha&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mf">0.3&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">order_by&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;-length&amp;#34;&lt;/span> &lt;span class="c"># length | name | -length | -name&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">collapse_depth&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">0&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="标签页配置">标签页配置&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">tag&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_img&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;/img/tag.webp&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_img_height&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">80&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">banner_mask_alpha&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mf">0.3&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">tag&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">tagcloud&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">min_font&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">15&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">max_font&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">30&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">unit&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;px&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">start_color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;#BBBBEE&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">end_color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;#337ab7&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="功能配置">功能配置&lt;/h2>
+&lt;h3 id="搜索功能">搜索功能&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">search&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">path&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;/index.json&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">field&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;post&amp;#34;&lt;/span> &lt;span class="c"># post | page | all&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">content&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="导航栏">导航栏&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">navbar&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">blog_title&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Hugo Fluid&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">navbar&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">ground_glass&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">px&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">3&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">alpha&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mf">0.7&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="页脚">页脚&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">footer&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">content&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s1">&amp;#39;&amp;#39;&amp;#39;
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s1">&amp;lt;a href=&amp;#34;https://gohugo.io&amp;#34; target=&amp;#34;_blank&amp;#34; rel=&amp;#34;nofollow noopener&amp;#34;&amp;gt;&amp;lt;span&amp;gt;Hugo&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s1">&amp;lt;i class=&amp;#34;iconfont icon-love&amp;#34;&amp;gt;&amp;lt;/i&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s1">&amp;lt;a href=&amp;#34;https://github.com/ouraihub-hugo-themes/hugo-theme-fluid-dist&amp;#34; target=&amp;#34;_blank&amp;#34; rel=&amp;#34;nofollow noopener&amp;#34;&amp;gt;&amp;lt;span&amp;gt;Fluid&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s1">&amp;#39;&amp;#39;&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">footer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">statistics&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">source&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;busuanzi&amp;#34;&lt;/span> &lt;span class="c"># busuanzi | leancloud | umami&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">footer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">beian&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">icp_text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;京ICP证123456号&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">police_text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;京公网安备12345678号&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">police_code&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;12345678&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="图片懒加载">图片懒加载&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">lazyload&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">loading_img&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;/img/loading.gif&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">onlypost&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">false&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">offset_factor&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">2&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="数学公式">数学公式&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">post&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">math&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">specific&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">engine&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;mathjax&amp;#34;&lt;/span> &lt;span class="c"># mathjax | katex&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="流程图">流程图&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">post&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">mermaid&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">enable&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">specific&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">post&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">mermaid&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">options&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">theme&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;default&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="菜单配置">菜单配置&lt;/h2>
+&lt;h3 id="主菜单-menuszhtoml">主菜单 (menus.zh.toml)&lt;/h3>
+&lt;p>Hugo Fluid 主题支持普通菜单项和下拉菜单。菜单配置文件位于 &lt;code>config/_default/menus.zh.toml&lt;/code>（中文）、&lt;code>menus.en.toml&lt;/code>（英文）、&lt;code>menus.tw.toml&lt;/code>（繁体中文）。&lt;/p></description></item><item><title>下拉菜单配置指南</title><link>https://hugo-fluid.github.io/zh/docs/dropdown-menu/</link><pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/docs/dropdown-menu/</guid><description>&lt;h1 id="下拉菜单配置指南">下拉菜单配置指南&lt;/h1>
+&lt;p>本指南详细说明如何在 Hugo Fluid 主题中配置下拉菜单，包括普通菜单项和多级下拉菜单的设置方法。&lt;/p>
+&lt;h2 id="菜单配置文件位置">菜单配置文件位置&lt;/h2>
+&lt;p>Hugo Fluid 主题的菜单配置文件位于 &lt;code>config/_default/&lt;/code> 目录下：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">config/_default/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── menus.zh.toml # 简体中文菜单
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── menus.en.toml # 英文菜单
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── menus.tw.toml # 繁体中文菜单
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="基础菜单配置">基础菜单配置&lt;/h2>
+&lt;h3 id="普通菜单项">普通菜单项&lt;/h3>
+&lt;p>普通菜单项是最基本的菜单类型，直接链接到页面：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[[&lt;/span>&lt;span class="nx">main&lt;/span>&lt;span class="p">]]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">name&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;首页&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">url&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;/&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">weight&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">pre&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;iconfont icon-home-fill&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="菜单参数说明">菜单参数说明&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>参数&lt;/th>
+ &lt;th>必需&lt;/th>
+ &lt;th>说明&lt;/th>
+ &lt;th>示例&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>name&lt;/code>&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>菜单显示名称&lt;/td>
+ &lt;td>&lt;code>&amp;quot;首页&amp;quot;&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>url&lt;/code>&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>链接地址&lt;/td>
+ &lt;td>&lt;code>&amp;quot;/&amp;quot;&lt;/code> 或 &lt;code>&amp;quot;https://example.com&amp;quot;&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>weight&lt;/code>&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;td>排序权重（数字越小越靠前）&lt;/td>
+ &lt;td>&lt;code>1&lt;/code>, &lt;code>2&lt;/code>, &lt;code>3&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>pre&lt;/code>&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>图标类名&lt;/td>
+ &lt;td>&lt;code>&amp;quot;iconfont icon-home-fill&amp;quot;&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>post&lt;/code>&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>链接打开方式&lt;/td>
+ &lt;td>&lt;code>&amp;quot;_blank&amp;quot;&lt;/code>（新标签页）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>hasChildren&lt;/code>&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>是否为下拉菜单父项&lt;/td>
+ &lt;td>&lt;code>true&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>parent&lt;/code>&lt;/td>
+ &lt;td>❌&lt;/td>
+ &lt;td>父菜单名称（仅子菜单项使用）&lt;/td>
+ &lt;td>&lt;code>&amp;quot;文档&amp;quot;&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="下拉菜单配置">下拉菜单配置&lt;/h2>
+&lt;h3 id="基本下拉菜单">基本下拉菜单&lt;/h3>
+&lt;p>下拉菜单由一个父菜单项和多个子菜单项组成：&lt;/p></description></item><item><title>主题特性</title><link>https://hugo-fluid.github.io/zh/docs/features/</link><pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/docs/features/</guid><description>&lt;h1 id="主题特性">主题特性&lt;/h1>
+&lt;p>Hugo Fluid 主题提供了丰富的功能和特性，让你的博客更加优雅和实用。&lt;/p>
+&lt;h2 id="-设计特性">🎨 设计特性&lt;/h2>
+&lt;h3 id="material-design-风格">Material Design 风格&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>现代化设计&lt;/strong>：采用 Google Material Design 设计语言&lt;/li>
+&lt;li>&lt;strong>优雅配色&lt;/strong>：精心调配的颜色方案，支持深色/浅色模式&lt;/li>
+&lt;li>&lt;strong>流畅动画&lt;/strong>：细腻的过渡动画和交互效果&lt;/li>
+&lt;li>&lt;strong>响应式布局&lt;/strong>：完美适配桌面、平板、手机等所有设备&lt;/li>
+&lt;/ul>
+&lt;h3 id="深色模式支持">深色模式支持&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>自动切换&lt;/strong>：根据系统设置自动切换主题&lt;/li>
+&lt;li>&lt;strong>手动控制&lt;/strong>：用户可以手动切换深色/浅色模式&lt;/li>
+&lt;li>&lt;strong>持久化存储&lt;/strong>：记住用户的主题偏好设置&lt;/li>
+&lt;li>&lt;strong>三种模式&lt;/strong>：auto（自动）、light（浅色）、dark（深色）&lt;/li>
+&lt;/ul>
+&lt;h3 id="banner-视差效果">Banner 视差效果&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>视差滚动&lt;/strong>：首页和文章页的 Banner 支持视差滚动效果&lt;/li>
+&lt;li>&lt;strong>自定义图片&lt;/strong>：每个页面都可以设置独特的 Banner 图片&lt;/li>
+&lt;li>&lt;strong>遮罩效果&lt;/strong>：可调节的遮罩透明度，确保文字清晰可读&lt;/li>
+&lt;li>&lt;strong>高度控制&lt;/strong>：灵活的 Banner 高度设置&lt;/li>
+&lt;/ul>
+&lt;h2 id="-内容功能">📝 内容功能&lt;/h2>
+&lt;h3 id="文章管理">文章管理&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>分类系统&lt;/strong>：支持多级分类，层次清晰&lt;/li>
+&lt;li>&lt;strong>标签系统&lt;/strong>：灵活的标签管理，支持标签云显示&lt;/li>
+&lt;li>&lt;strong>归档功能&lt;/strong>：按时间归档文章，方便查找&lt;/li>
+&lt;li>&lt;strong>置顶文章&lt;/strong>：重要文章可以置顶显示&lt;/li>
+&lt;li>&lt;strong>文章摘要&lt;/strong>：自动提取或手动设置文章摘要&lt;/li>
+&lt;/ul>
+&lt;h3 id="代码高亮">代码高亮&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>多语言支持&lt;/strong>：支持几十种编程语言的语法高亮&lt;/li>
+&lt;li>&lt;strong>主题切换&lt;/strong>：浅色和深色模式下的不同高亮主题&lt;/li>
+&lt;li>&lt;strong>行号显示&lt;/strong>：可选的代码行号显示&lt;/li>
+&lt;li>&lt;strong>一键复制&lt;/strong>：代码块支持一键复制功能&lt;/li>
+&lt;li>&lt;strong>语言标识&lt;/strong>：显示代码块的编程语言&lt;/li>
+&lt;/ul>
+&lt;h3 id="数学公式">数学公式&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>LaTeX 支持&lt;/strong>：完整的 LaTeX 数学公式渲染&lt;/li>
+&lt;li>&lt;strong>引擎选择&lt;/strong>：支持 MathJax 和 KaTeX 两种渲染引擎&lt;/li>
+&lt;li>&lt;strong>行内公式&lt;/strong>：支持行内和块级数学公式&lt;/li>
+&lt;li>&lt;strong>自动渲染&lt;/strong>：页面加载时自动渲染数学公式&lt;/li>
+&lt;/ul>
+&lt;h3 id="流程图支持">流程图支持&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Mermaid 集成&lt;/strong>：内置 Mermaid 流程图支持&lt;/li>
+&lt;li>&lt;strong>多种图表&lt;/strong>：支持流程图、时序图、甘特图等&lt;/li>
+&lt;li>&lt;strong>主题适配&lt;/strong>：图表主题自动适配网站主题&lt;/li>
+&lt;li>&lt;strong>响应式&lt;/strong>：图表在不同设备上自适应显示&lt;/li>
+&lt;/ul>
+&lt;h2 id="-搜索功能">🔍 搜索功能&lt;/h2>
+&lt;h3 id="pagefind-全文搜索">Pagefind 全文搜索&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>快速搜索&lt;/strong>：基于 Pagefind 的高性能全文搜索&lt;/li>
+&lt;li>&lt;strong>多语言支持&lt;/strong>：支持中文、英文、繁体中文搜索&lt;/li>
+&lt;li>&lt;strong>实时结果&lt;/strong>：输入即搜索，实时显示结果&lt;/li>
+&lt;li>&lt;strong>内容预览&lt;/strong>：搜索结果包含内容摘要预览&lt;/li>
+&lt;li>&lt;strong>高亮匹配&lt;/strong>：搜索关键词在结果中高亮显示&lt;/li>
+&lt;/ul>
+&lt;h3 id="搜索界面">搜索界面&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>模态框设计&lt;/strong>：优雅的搜索模态框界面&lt;/li>
+&lt;li>&lt;strong>键盘快捷键&lt;/strong>：支持键盘快捷键操作&lt;/li>
+&lt;li>&lt;strong>移动端优化&lt;/strong>：移动设备上的搜索体验优化&lt;/li>
+&lt;li>&lt;strong>多语言界面&lt;/strong>：搜索界面支持多语言显示&lt;/li>
+&lt;/ul>
+&lt;h2 id="-多语言支持">🌐 多语言支持&lt;/h2>
+&lt;h3 id="内置语言">内置语言&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>简体中文&lt;/strong>：完整的简体中文界面&lt;/li>
+&lt;li>&lt;strong>繁体中文&lt;/strong>：完整的繁体中文界面&lt;/li>
+&lt;li>&lt;strong>英文&lt;/strong>：完整的英文界面&lt;/li>
+&lt;li>&lt;strong>日文&lt;/strong>：完整的日文界面&lt;/li>
+&lt;li>&lt;strong>更多语言&lt;/strong>：支持扩展更多语言&lt;/li>
+&lt;/ul>
+&lt;h3 id="语言切换">语言切换&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>智能切换&lt;/strong>：自动检测用户语言偏好&lt;/li>
+&lt;li>&lt;strong>下拉菜单&lt;/strong>：优雅的语言切换下拉菜单&lt;/li>
+&lt;li>&lt;strong>URL 结构&lt;/strong>：清晰的多语言 URL 结构&lt;/li>
+&lt;li>&lt;strong>内容管理&lt;/strong>：每种语言独立的内容管理&lt;/li>
+&lt;/ul>
+&lt;h2 id="-用户体验">🎯 用户体验&lt;/h2>
+&lt;h3 id="导航系统">导航系统&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>固定导航栏&lt;/strong>：滚动时导航栏固定在顶部&lt;/li>
+&lt;li>&lt;strong>下拉菜单&lt;/strong>：支持多级下拉菜单&lt;/li>
+&lt;li>&lt;strong>移动端适配&lt;/strong>：移动设备上的汉堡菜单&lt;/li>
+&lt;li>&lt;strong>毛玻璃效果&lt;/strong>：可选的导航栏毛玻璃背景效果&lt;/li>
+&lt;/ul>
+&lt;h3 id="阅读体验">阅读体验&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>目录导航&lt;/strong>：文章目录侧边栏，支持折叠&lt;/li>
+&lt;li>&lt;strong>阅读进度&lt;/strong>：页面顶部的阅读进度条&lt;/li>
+&lt;li>&lt;strong>返回顶部&lt;/strong>：平滑滚动的返回顶部按钮&lt;/li>
+&lt;li>&lt;strong>图片优化&lt;/strong>：图片懒加载和放大查看功能&lt;/li>
+&lt;/ul>
+&lt;h3 id="打字机效果">打字机效果&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>动态标题&lt;/strong>：首页副标题的打字机动画效果&lt;/li>
+&lt;li>&lt;strong>可配置&lt;/strong>：打字速度、光标字符等可自定义&lt;/li>
+&lt;li>&lt;strong>循环播放&lt;/strong>：支持循环播放动画效果&lt;/li>
+&lt;li>&lt;strong>页面控制&lt;/strong>：可指定在哪些页面启用效果&lt;/li>
+&lt;/ul>
+&lt;h2 id="-评论系统">💬 评论系统&lt;/h2>
+&lt;h3 id="多平台支持">多平台支持&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Giscus&lt;/strong>：基于 GitHub Discussions 的评论系统&lt;/li>
+&lt;li>&lt;strong>Utterances&lt;/strong>：基于 GitHub Issues 的评论系统&lt;/li>
+&lt;li>&lt;strong>Disqus&lt;/strong>：经典的第三方评论系统&lt;/li>
+&lt;li>&lt;strong>Gitalk&lt;/strong>：基于 GitHub Issues 的评论系统&lt;/li>
+&lt;li>&lt;strong>Waline&lt;/strong>：自托管的评论系统&lt;/li>
+&lt;li>&lt;strong>更多选择&lt;/strong>：支持 Valine、Twikoo 等多种评论系统&lt;/li>
+&lt;/ul>
+&lt;h3 id="评论功能">评论功能&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>实时评论&lt;/strong>：支持实时评论和回复&lt;/li>
+&lt;li>&lt;strong>Markdown 支持&lt;/strong>：评论内容支持 Markdown 语法&lt;/li>
+&lt;li>&lt;strong>表情符号&lt;/strong>：丰富的表情符号支持&lt;/li>
+&lt;li>&lt;strong>管理功能&lt;/strong>：评论管理和审核功能&lt;/li>
+&lt;/ul>
+&lt;h2 id="-统计分析">📊 统计分析&lt;/h2>
+&lt;h3 id="访问统计">访问统计&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>不蒜子统计&lt;/strong>：简单易用的访问量统计&lt;/li>
+&lt;li>&lt;strong>LeanCloud 统计&lt;/strong>：更详细的统计数据&lt;/li>
+&lt;li>&lt;strong>自定义格式&lt;/strong>：可自定义统计数据显示格式&lt;/li>
+&lt;li>&lt;strong>隐私保护&lt;/strong>：支持 Do Not Track 设置&lt;/li>
+&lt;/ul>
+&lt;h3 id="seo-优化">SEO 优化&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Open Graph&lt;/strong>：完整的 Open Graph 标签支持&lt;/li>
+&lt;li>&lt;strong>Twitter Cards&lt;/strong>：Twitter 卡片支持&lt;/li>
+&lt;li>&lt;strong>结构化数据&lt;/strong>：JSON-LD 结构化数据&lt;/li>
+&lt;li>&lt;strong>站点地图&lt;/strong>：自动生成 XML 站点地图&lt;/li>
+&lt;li>&lt;strong>RSS 订阅&lt;/strong>：自动生成 RSS 订阅源&lt;/li>
+&lt;/ul>
+&lt;h2 id="-技术特性">🔧 技术特性&lt;/h2>
+&lt;h3 id="现代化技术栈">现代化技术栈&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>TypeScript&lt;/strong>：使用 TypeScript 开发，类型安全&lt;/li>
+&lt;li>&lt;strong>Tailwind CSS&lt;/strong>：现代化的 CSS 框架&lt;/li>
+&lt;li>&lt;strong>esbuild&lt;/strong>：快速的 JavaScript 打包工具&lt;/li>
+&lt;li>&lt;strong>Hugo&lt;/strong>：高性能的静态站点生成器&lt;/li>
+&lt;/ul>
+&lt;h3 id="性能优化">性能优化&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>资源压缩&lt;/strong>：CSS 和 JavaScript 自动压缩&lt;/li>
+&lt;li>&lt;strong>图片懒加载&lt;/strong>：提升页面加载速度&lt;/li>
+&lt;li>&lt;strong>CDN 支持&lt;/strong>：支持 CDN 加速&lt;/li>
+&lt;li>&lt;strong>缓存优化&lt;/strong>：合理的缓存策略&lt;/li>
+&lt;/ul>
+&lt;h3 id="开发体验">开发体验&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>热重载&lt;/strong>：开发时支持热重载&lt;/li>
+&lt;li>&lt;strong>代码检查&lt;/strong>：ESLint 和 Prettier 代码规范&lt;/li>
+&lt;li>&lt;strong>类型检查&lt;/strong>：TypeScript 类型检查&lt;/li>
+&lt;li>&lt;strong>测试支持&lt;/strong>：Vitest 测试框架&lt;/li>
+&lt;/ul>
+&lt;h2 id="-移动端优化">📱 移动端优化&lt;/h2>
+&lt;h3 id="响应式设计">响应式设计&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>自适应布局&lt;/strong>：所有组件都支持响应式布局&lt;/li>
+&lt;li>&lt;strong>触摸优化&lt;/strong>：针对触摸设备的交互优化&lt;/li>
+&lt;li>&lt;strong>性能优化&lt;/strong>：移动端性能优化&lt;/li>
+&lt;li>&lt;strong>离线支持&lt;/strong>：基础的离线浏览支持&lt;/li>
+&lt;/ul>
+&lt;h3 id="移动端功能">移动端功能&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>手势支持&lt;/strong>：支持滑动等手势操作&lt;/li>
+&lt;li>&lt;strong>快速加载&lt;/strong>：移动端快速加载优化&lt;/li>
+&lt;li>&lt;strong>省流量模式&lt;/strong>：可选的省流量模式&lt;/li>
+&lt;li>&lt;strong>PWA 支持&lt;/strong>：渐进式 Web 应用支持&lt;/li>
+&lt;/ul>
+&lt;h2 id="-自定义功能">🎨 自定义功能&lt;/h2>
+&lt;h3 id="主题定制">主题定制&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>颜色系统&lt;/strong>：完整的颜色自定义系统&lt;/li>
+&lt;li>&lt;strong>字体设置&lt;/strong>：字体大小和字体族自定义&lt;/li>
+&lt;li>&lt;strong>布局调整&lt;/strong>：灵活的布局配置选项&lt;/li>
+&lt;li>&lt;strong>组件开关&lt;/strong>：各个功能组件可独立开关&lt;/li>
+&lt;/ul>
+&lt;h3 id="扩展性">扩展性&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>自定义 CSS&lt;/strong>：支持添加自定义样式&lt;/li>
+&lt;li>&lt;strong>自定义 JavaScript&lt;/strong>：支持添加自定义脚本&lt;/li>
+&lt;li>&lt;strong>插件系统&lt;/strong>：支持第三方插件集成&lt;/li>
+&lt;li>&lt;strong>Hook 系统&lt;/strong>：提供丰富的钩子函数&lt;/li>
+&lt;/ul>
+&lt;h2 id="-安全特性">🔒 安全特性&lt;/h2>
+&lt;h3 id="内容安全">内容安全&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>XSS 防护&lt;/strong>：内置 XSS 攻击防护&lt;/li>
+&lt;li>&lt;strong>CSRF 保护&lt;/strong>：跨站请求伪造保护&lt;/li>
+&lt;li>&lt;strong>内容过滤&lt;/strong>：用户输入内容过滤&lt;/li>
+&lt;li>&lt;strong>安全头部&lt;/strong>：推荐的 HTTP 安全头部&lt;/li>
+&lt;/ul>
+&lt;h3 id="隐私保护">隐私保护&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>GDPR 兼容&lt;/strong>：符合 GDPR 隐私保护要求&lt;/li>
+&lt;li>&lt;strong>Cookie 控制&lt;/strong>：Cookie 使用控制&lt;/li>
+&lt;li>&lt;strong>数据最小化&lt;/strong>：最小化数据收集&lt;/li>
+&lt;li>&lt;strong>用户控制&lt;/strong>：用户可控制个人数据&lt;/li>
+&lt;/ul>
+&lt;h2 id="-部署支持">🚀 部署支持&lt;/h2>
+&lt;h3 id="多平台部署">多平台部署&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>GitHub Pages&lt;/strong>：完美支持 GitHub Pages 部署&lt;/li>
+&lt;li>&lt;strong>Vercel&lt;/strong>：一键部署到 Vercel&lt;/li>
+&lt;li>&lt;strong>Netlify&lt;/strong>：支持 Netlify 部署&lt;/li>
+&lt;li>&lt;strong>自托管&lt;/strong>：支持任何支持静态文件的服务器&lt;/li>
+&lt;/ul>
+&lt;h3 id="cicd-集成">CI/CD 集成&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>GitHub Actions&lt;/strong>：内置 GitHub Actions 工作流&lt;/li>
+&lt;li>&lt;strong>自动构建&lt;/strong>：代码提交自动触发构建&lt;/li>
+&lt;li>&lt;strong>多环境部署&lt;/strong>：支持开发、测试、生产环境&lt;/li>
+&lt;li>&lt;strong>回滚支持&lt;/strong>：支持快速回滚到之前版本&lt;/li>
+&lt;/ul>
+&lt;p>这些特性让 Hugo Fluid 成为一个功能完整、易于使用的现代化博客主题。无论你是个人博主还是团队使用，都能找到适合的配置和功能。&lt;/p></description></item><item><title>多语言配置与语言切换指南</title><link>https://hugo-fluid.github.io/zh/post/language-switch-guide/</link><pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/language-switch-guide/</guid><description>&lt;p>Hugo Theme Fluid 提供了完整的多语言支持，让你可以轻松创建多语言博客。本文将详细介绍如何配置和使用语言切换功能。&lt;/p></description></item><item><title>Banner 背景图片配置完全指南</title><link>https://hugo-fluid.github.io/zh/post/banner-customization-guide/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/banner-customization-guide/</guid><description>&lt;p>本文将详细介绍如何为 Hugo Fluid 主题配置自定义 Banner 背景图片，包括使用 AI 生成图片、压缩优化、以及配置到主题中的完整流程。&lt;/p></description></item><item><title>导航栏子菜单配置指南</title><link>https://hugo-fluid.github.io/zh/post/submenu-guide/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/submenu-guide/</guid><description>&lt;p>Hugo Theme Fluid 支持导航栏下拉子菜单功能，让你可以更好地组织导航链接。本文将详细介绍如何配置和使用子菜单功能。&lt;/p></description></item><item><title>页脚配置指南</title><link>https://hugo-fluid.github.io/zh/post/footer-guide/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/footer-guide/</guid><description>&lt;p>本文介绍如何配置 Hugo Fluid 主题的页脚组件，包括自定义内容、PV/UV 统计和备案信息。&lt;/p></description></item><item><title>自定义页面配置与使用指南</title><link>https://hugo-fluid.github.io/zh/post/custom-page-guide/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/custom-page-guide/</guid><description>&lt;p>Hugo Theme Fluid 支持创建各种自定义页面，如文档页、社群页、服务条款页等。本文将详细介绍如何配置和使用自定义页面功能。&lt;/p></description></item><item><title>代码块功能演示</title><link>https://hugo-fluid.github.io/zh/post/code-block-demo/</link><pubDate>Mon, 23 Dec 2024 10:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/code-block-demo/</guid><description>&lt;p>本文展示 Hugo Fluid 主题的代码块功能。&lt;/p></description></item><item><title>锚点链接功能演示</title><link>https://hugo-fluid.github.io/zh/post/anchorjs-demo/</link><pubDate>Fri, 20 Dec 2024 10:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/anchorjs-demo/</guid><description>&lt;p>本文演示 Hugo Theme Fluid 的锚点链接功能。锚点链接可以让你方便地分享文章的特定章节。&lt;/p></description></item><item><title>图片懒加载演示</title><link>https://hugo-fluid.github.io/zh/post/lazyload-demo/</link><pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/lazyload-demo/</guid><description>&lt;p>这篇文章演示了图片懒加载功能。向下滚动页面，观察图片是如何按需加载的。&lt;/p></description></item><item><title>分页测试文章 6</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-6/</link><pubDate>Tue, 06 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-6/</guid><description>&lt;p>这是分页测试文章 6。&lt;/p></description></item><item><title>分页测试文章 5</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-5/</link><pubDate>Mon, 05 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-5/</guid><description>&lt;p>这是分页测试文章 5。&lt;/p></description></item><item><title>分页测试文章 4</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-4/</link><pubDate>Sun, 04 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-4/</guid><description>&lt;p>这是分页测试文章 4。&lt;/p></description></item><item><title>分页测试文章 3</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-3/</link><pubDate>Sat, 03 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-3/</guid><description>&lt;p>这是分页测试文章 3。&lt;/p></description></item><item><title>分页测试文章 2</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-2/</link><pubDate>Fri, 02 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-2/</guid><description>&lt;p>这是分页测试文章 2。&lt;/p></description></item><item><title>分页测试文章 1</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-1/</link><pubDate>Thu, 01 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-1/</guid><description>&lt;p>这是分页测试文章 1。&lt;/p></description></item><item><title>打字机效果配置指南</title><link>https://hugo-fluid.github.io/zh/post/typing-effect-guide/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/typing-effect-guide/</guid><description>&lt;p>本文介绍如何在 Hugo Fluid 主题中配置和使用打字机效果。&lt;/p></description></item><item><title>Mermaid 流程图使用指南</title><link>https://hugo-fluid.github.io/zh/post/mermaid-demo/</link><pubDate>Tue, 16 Jan 2024 10:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/mermaid-demo/</guid><description>&lt;p>本文详细介绍 Hugo Fluid 主题的 Mermaid 流程图功能，包括配置方法、语法说明和丰富的示例。&lt;/p></description></item><item><title>数学公式使用指南</title><link>https://hugo-fluid.github.io/zh/post/math-demo/</link><pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/math-demo/</guid><description>&lt;p>本文详细介绍 Hugo Fluid 主题的数学公式功能，包括配置方法、语法说明和丰富的示例。&lt;/p></description></item><item><title>Hugo Fluid 主题使用指南</title><link>https://hugo-fluid.github.io/zh/post/getting-started/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/getting-started/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
 &lt;p>Hugo Fluid 是一个基于 hexo-theme-fluid 改写的 Material Design 风格 Hugo 博客主题。&lt;/p></description></item><item><title>Markdown 语法示例</title><link>https://hugo-fluid.github.io/zh/post/markdown-syntax/</link><pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/markdown-syntax/</guid><description>&lt;p>这篇文章展示了 Markdown 的基本语法和 Hugo Fluid 主题的渲染效果。&lt;/p></description></item><item><title>Hello World</title><link>https://hugo-fluid.github.io/zh/post/hello-world/</link><pubDate>Mon, 01 Jan 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/hello-world/</guid><description>&lt;p>欢迎使用 Hugo Theme Fluid！这是一个基于 hexo-theme-fluid 移植的 Material Design 风格博客主题。&lt;/p>
 &lt;h2 id="特性">特性&lt;/h2>
 &lt;ul>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on Hugo Fluid Blog</title><link>https://hugo-fluid.github.io/docs/</link><description>Recent content in Documentation on Hugo Fluid Blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-fluid.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Dropdown Menu Configuration Guide</title><link>https://hugo-fluid.github.io/docs/dropdown-menu/</link><pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/docs/dropdown-menu/</guid><description>&lt;h1 id="dropdown-menu-configuration-guide">Dropdown Menu Configuration Guide&lt;/h1>
+&lt;p>This guide provides detailed instructions on how to configure dropdown menus in the Hugo Fluid theme, including both regular menu items and multi-level dropdown menus.&lt;/p>
+&lt;h2 id="menu-configuration-file-locations">Menu Configuration File Locations&lt;/h2>
+&lt;p>Hugo Fluid theme menu configuration files are located in the &lt;code>config/_default/&lt;/code> directory:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">config/_default/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── menus.zh.toml # Simplified Chinese menu
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├── menus.en.toml # English menu
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── menus.tw.toml # Traditional Chinese menu
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="basic-menu-configuration">Basic Menu Configuration&lt;/h2>
+&lt;h3 id="regular-menu-items">Regular Menu Items&lt;/h3>
+&lt;p>Regular menu items are the most basic menu type that directly link to pages:&lt;/p></description></item></channel></rss>

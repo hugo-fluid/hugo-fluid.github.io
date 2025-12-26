@@ -1,0 +1,426 @@
+<!doctype html><html lang=zh data-user-color-scheme=auto><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=theme-color content="#2f4154" media="(prefers-color-scheme: light)"><meta name=theme-color content="#1f3144" media="(prefers-color-scheme: dark)"><link rel=preconnect href=//at.alicdn.com crossorigin><link rel=dns-prefetch href=//at.alicdn.com><title>配置指南 - Hugo Fluid 博客</title><link rel=icon href=/img/fluid.png><link rel=apple-touch-icon href=/img/fluid.png><meta name=description content="Hugo Fluid 主题详细配置指南"><meta name=author content="Fluid"><link rel=canonical href=https://hugo-fluid.github.io/zh/docs/config/><meta property="og:title" content="配置指南"><meta property="og:description" content="Hugo Fluid 主题详细配置指南"><meta property="og:type" content="article"><meta property="og:url" content="https://hugo-fluid.github.io/zh/docs/config/"><meta property="og:site_name" content="Hugo Fluid 博客"><meta property="article:published_time" content="2024-12-26T00:00:00Z"><meta property="article:modified_time" content="2024-12-26T00:00:00Z"><meta property="article:author" content="Fluid"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="配置指南"><meta name=twitter:description content="Hugo Fluid 主题详细配置指南"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"配置指南","description":"Hugo Fluid 主题详细配置指南","datePublished":"2024-12-26T00:00:00Z","dateModified":"2024-12-26T00:00:00Z","author":{"@type":"Person","name":"Fluid"},"publisher":{"@type":"Organization","name":"Hugo Fluid 博客"},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/hugo-fluid.github.io\/zh\/docs\/config\/"}}</script><script src=/js/color-schema.js></script><script id=fluid-configs>var CONFIG,dntVal,Fluid=window.Fluid||{};Fluid.ctx=Object.assign({},Fluid.ctx),CONFIG={hostname:'"https://hugo-fluid.github.io/"',root:'"/"',version:"1.0.0-dev",typing:{enable:!0,typeSpeed:70,cursorChar:'"_"',loop:!1},anchorjs:{enable:!0,element:'"h1,h2,h3,h4,h5,h6"',placement:'"left"',visible:'"hover"',icon:'""'},progressbar:{enable:!0,height_px:3,color:'"#29d"'},code:{copy_btn:!0,language:{enable:!0,default:'"TEXT"'},highlight:{enable:!0,line_number:!0}},image_caption:{enable:!0},image_zoom:{enable:!0,img_url_replace:'["",""]'},toc:{enable:!0,placement:'"right"',headingSelector:'"h1,h2,h3,h4,h5,h6"',collapseDepth:0},lazyload:{enable:!0,loading_img:'"/img/loading.gif"',onlypost:!1,offset_factor:2},search_path:'"/index.json"',include_content_in_search:!0},CONFIG.web_analytics&&CONFIG.web_analytics.follow_dnt&&(dntVal=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,Fluid.ctx.dnt=dntVal&&(dntVal.startsWith("1")||dntVal.startsWith("yes")||dntVal.startsWith("on")))</script><link rel=stylesheet href=//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css><link rel=stylesheet href=//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css><link rel=stylesheet href=/css/main.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css><style>#nprogress .bar{background:#29d!important;height:3px!important}#nprogress .peg{box-shadow:0 0 10px #29d,0 0 5px #29d!important}#nprogress .spinner-icon{border-top-color:#29d!important;border-left-color:#29d!important}</style><script src=https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js></script><script>NProgress.configure({showSpinner:!1,trickleSpeed:100,minimum:.08,parent:"body"});function startNProgress(){document.body?NProgress.start():document.addEventListener("DOMContentLoaded",function(){NProgress.start()})}startNProgress(),window.addEventListener("load",function(){NProgress.done()})</script></head><body><a href=#board class=skip-link>Skip to content</a><div class=header-inner style=height:60vh><nav id=navbar class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar"><div class=container><a class=navbar-brand href=/zh><strong>Hugo Fluid</strong>
+</a><button id=navbar-toggler-btn class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation"><div class=animated-icon><span></span><span></span><span></span></div></button><div class="collapse navbar-collapse" id=navbarSupportedContent><ul class="navbar-nav ml-auto text-center"><li class=nav-item><a class=nav-link href=/zh/ target=_self><i class="iconfont icon-home-fill"></i>
+<span>首页</span></a></li><li class=nav-item><a class=nav-link href=/zh/archives/ target=_self><i class="iconfont icon-archive-fill"></i>
+<span>归档</span></a></li><li class=nav-item><a class=nav-link href=/zh/categories/ target=_self><i class="iconfont icon-category-fill"></i>
+<span>分类</span></a></li><li class=nav-item><a class=nav-link href=/zh/tags/ target=_self><i class="iconfont icon-tags-fill"></i>
+<span>标签</span></a></li><li class=nav-item><a class=nav-link href=/zh/links/ target=_self><i class="iconfont icon-link-fill"></i>
+<span>友链</span></a></li><li class=nav-item><a class=nav-link href=/zh/about/ target=_self><i class="iconfont icon-user-fill"></i>
+<span>关于</span></a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" target=_self href=javascript:; role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false><i class="iconfont icon-books"></i>
+<span>文档</span>
+<i class="iconfont icon-arrow-down dropdown-arrow"></i></a><div class=dropdown-menu aria-labelledby=navbarDropdown><a class=dropdown-item href=/zh/docs/ target=_blank><span>快速开始</span>
+</a><a class=dropdown-item href=/zh/docs/config/ target=_blank><span>配置指南</span>
+</a><a class=dropdown-item href=/zh/docs/features/ target=_blank><span>主题特性</span>
+</a><a class=dropdown-item href=/zh/docs/dropdown-menu/ target=_blank><span>下拉菜单配置</span></a></div></li><li class=nav-item id=search-btn><a class=nav-link target=_self href=javascript:; data-toggle=modal data-target=#modalSearch aria-label=Search><i class="iconfont icon-search"></i></a></li><li class=nav-item id=language-switch-btn><div class=language-dropdown><a class="nav-link language-current" href=javascript:; aria-label="Switch to" title="Switch to"><span class=language-code>简</span>
+<i class="iconfont icon-arrowdown language-arrow"></i></a><div class=language-menu><span class="language-item language-item-current"><span class=language-code>简</span>
+<span class=language-name>简体中文</span>
+</span><a class=language-item href=/docs/config/ title="Switch to English"><span class=language-code>EN</span>
+<span class=language-name>English</span>
+</a><a class=language-item href=/tw/docs/config/ title="Switch to 繁體中文"><span class=language-code>繁</span>
+<span class=language-name>繁體中文</span></a></div></div></li><li class=nav-item id=color-toggle-btn><a class=nav-link target=_self href=javascript:; aria-label="Toggle theme"><i class="iconfont icon-dark" id=color-toggle-icon></i></a></li></ul></div></div></nav><style>.navbar .dropdown-collapse,.top-nav-collapse,.navbar-col-show{backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);background-color:rgba(47,65,84,.7)}[data-user-color-scheme=dark] .navbar .dropdown-collapse,[data-user-color-scheme=dark] .top-nav-collapse,[data-user-color-scheme=dark] .navbar-col-show{background-color:rgba(31,49,68,.7)}</style><div id=banner class=banner parallax=true style="background:url(/img/default.png)no-repeat 50%;background-size:cover"><div class=full-bg-img><div class="mask flex-center" style=background-color:rgba(0,0,0,.3)><div class="banner-text text-center fade-in-up"><div class=h2><span id=subtitle data-typed-text=配置指南>配置指南</span></div></div></div></div></div><script src=https://lib.baomitu.com/typed.js/2.0.12/typed.min.js></script><script>(function(e,t){"use strict";var n={typeSpeed:70,cursorChar:"_",loop:!1};function o(e){if(typeof Typed=="undefined"){console.warn("Typed.js not loaded");return}var o,s=t.getElementById("subtitle");s&&(s.innerText=""),o=new Typed("#subtitle",{strings:["  ",e],cursorChar:n.cursorChar,typeSpeed:n.typeSpeed,loop:n.loop,startDelay:300})}function s(){var e,n=t.getElementById("subtitle");if(!n)return;if(e=n.getAttribute("data-typed-text"),!e)return;o(e)}t.readyState==="complete"?s():e.addEventListener("load",s)})(window,document)</script></div><main><div class="container-fluid nopadding-x"><div class="row nomargin-x"><div class="side-col d-none d-lg-block col-lg-2"></div><div class="col-lg-8 nopadding-x-md"><div class="container nopadding-x-md" id=board-ctn><div id=board><article class="post-content mx-auto"><h1 id=seo-header>配置指南</h1><blockquote class=post-description>Hugo Fluid 主题详细配置指南</blockquote><div class=markdown-body data-pagefind-body><h1 id=配置指南>配置指南</h1><p>本页面详细介绍 Hugo Fluid 主题的各项配置选项。</p><h2 id=基础配置>基础配置</h2><h3 id=hugo-配置-hugotoml>Hugo 配置 (hugo.toml)</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=nx>baseURL</span> <span class=p>=</span> <span class=s2>&#34;https://example.com/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>title</span> <span class=p>=</span> <span class=s2>&#34;我的博客&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>theme</span> <span class=p>=</span> <span class=s2>&#34;hugo-theme-fluid&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># 默认语言</span>
+</span></span><span class=line><span class=cl><span class=nx>defaultContentLanguage</span> <span class=p>=</span> <span class=s2>&#34;zh&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>defaultContentLanguageInSubdir</span> <span class=p>=</span> <span class=kc>false</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># CJK 语言支持</span>
+</span></span><span class=line><span class=cl><span class=nx>hasCJKLanguage</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># 输出格式</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>outputs</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>home</span> <span class=p>=</span> <span class=p>[</span><span class=s2>&#34;HTML&#34;</span><span class=p>,</span> <span class=s2>&#34;RSS&#34;</span><span class=p>,</span> <span class=s2>&#34;JSON&#34;</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>section</span> <span class=p>=</span> <span class=p>[</span><span class=s2>&#34;HTML&#34;</span><span class=p>,</span> <span class=s2>&#34;RSS&#34;</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>taxonomy</span> <span class=p>=</span> <span class=p>[</span><span class=s2>&#34;HTML&#34;</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>term</span> <span class=p>=</span> <span class=p>[</span><span class=s2>&#34;HTML&#34;</span><span class=p>]</span>
+</span></span></code></pre></div><h3 id=主题参数-paramstoml>主题参数 (params.toml)</h3><h4 id=全局配置>全局配置</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># 网站图标</span>
+</span></span><span class=line><span class=cl><span class=nx>favicon</span> <span class=p>=</span> <span class=s2>&#34;/img/fluid.png&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>apple_touch_icon</span> <span class=p>=</span> <span class=s2>&#34;/img/fluid.png&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># 站点描述</span>
+</span></span><span class=line><span class=cl><span class=nx>description</span> <span class=p>=</span> <span class=s2>&#34;一个优雅的 Material Design 风格博客&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>author</span> <span class=p>=</span> <span class=s2>&#34;Your Name&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># 代码块配置</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>code</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>copy_btn</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>code</span><span class=p>.</span><span class=nx>language</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>default</span> <span class=p>=</span> <span class=s2>&#34;TEXT&#34;</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>code</span><span class=p>.</span><span class=nx>highlight</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>line_number</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span></code></pre></div><h4 id=主题颜色>主题颜色</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>color</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>body_bg_color</span> <span class=p>=</span> <span class=s2>&#34;#eee&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>body_bg_color_dark</span> <span class=p>=</span> <span class=s2>&#34;#181c27&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>navbar_bg_color</span> <span class=p>=</span> <span class=s2>&#34;#2f4154&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>navbar_bg_color_dark</span> <span class=p>=</span> <span class=s2>&#34;#1f3144&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>text_color</span> <span class=p>=</span> <span class=s2>&#34;#3c4858&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>text_color_dark</span> <span class=p>=</span> <span class=s2>&#34;#c4c6c9&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>link_color</span> <span class=p>=</span> <span class=s2>&#34;#0366d6&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>link_color_dark</span> <span class=p>=</span> <span class=s2>&#34;#1589e9&#34;</span>
+</span></span></code></pre></div><h4 id=深色模式>深色模式</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>dark_mode</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>default</span> <span class=p>=</span> <span class=s2>&#34;auto&#34;</span>  <span class=c># auto | light | dark</span>
+</span></span></code></pre></div><h2 id=页面配置>页面配置</h2><h3 id=首页配置>首页配置</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>index</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img</span> <span class=p>=</span> <span class=s2>&#34;/img/home.webp&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img_height</span> <span class=p>=</span> <span class=mi>100</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_mask_alpha</span> <span class=p>=</span> <span class=mf>0.3</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>index</span><span class=p>.</span><span class=nx>slogan</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=c># 标语文本在语言特定配置中设置</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>index</span><span class=p>.</span><span class=nx>post_meta</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>date</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>category</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>tag</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span></code></pre></div><h3 id=文章页配置>文章页配置</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img</span> <span class=p>=</span> <span class=s2>&#34;/img/post.webp&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img_height</span> <span class=p>=</span> <span class=mi>70</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_mask_alpha</span> <span class=p>=</span> <span class=mf>0.3</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>.</span><span class=nx>toc</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>placement</span> <span class=p>=</span> <span class=s2>&#34;right&#34;</span>  <span class=c># left | right</span>
+</span></span><span class=line><span class=cl><span class=nx>headingSelector</span> <span class=p>=</span> <span class=s2>&#34;h1,h2,h3,h4,h5,h6&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>collapseDepth</span> <span class=p>=</span> <span class=mi>0</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>.</span><span class=nx>copyright</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>license</span> <span class=p>=</span> <span class=s2>&#34;BY&#34;</span>  <span class=c># BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND | ZERO</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>.</span><span class=nx>comments</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>false</span>
+</span></span><span class=line><span class=cl><span class=nx>type</span> <span class=p>=</span> <span class=s2>&#34;giscus&#34;</span>  <span class=c># utterances | disqus | gitalk | valine | waline | giscus</span>
+</span></span></code></pre></div><h3 id=归档页配置>归档页配置</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>archive</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img</span> <span class=p>=</span> <span class=s2>&#34;/img/archive.webp&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img_height</span> <span class=p>=</span> <span class=mi>60</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_mask_alpha</span> <span class=p>=</span> <span class=mf>0.3</span>
+</span></span></code></pre></div><h3 id=分类页配置>分类页配置</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>category</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img</span> <span class=p>=</span> <span class=s2>&#34;/img/category.webp&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img_height</span> <span class=p>=</span> <span class=mi>60</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_mask_alpha</span> <span class=p>=</span> <span class=mf>0.3</span>
+</span></span><span class=line><span class=cl><span class=nx>order_by</span> <span class=p>=</span> <span class=s2>&#34;-length&#34;</span>  <span class=c># length | name | -length | -name</span>
+</span></span><span class=line><span class=cl><span class=nx>collapse_depth</span> <span class=p>=</span> <span class=mi>0</span>
+</span></span></code></pre></div><h3 id=标签页配置>标签页配置</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>tag</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img</span> <span class=p>=</span> <span class=s2>&#34;/img/tag.webp&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img_height</span> <span class=p>=</span> <span class=mi>80</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_mask_alpha</span> <span class=p>=</span> <span class=mf>0.3</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>tag</span><span class=p>.</span><span class=nx>tagcloud</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>min_font</span> <span class=p>=</span> <span class=mi>15</span>
+</span></span><span class=line><span class=cl><span class=nx>max_font</span> <span class=p>=</span> <span class=mi>30</span>
+</span></span><span class=line><span class=cl><span class=nx>unit</span> <span class=p>=</span> <span class=s2>&#34;px&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>start_color</span> <span class=p>=</span> <span class=s2>&#34;#BBBBEE&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>end_color</span> <span class=p>=</span> <span class=s2>&#34;#337ab7&#34;</span>
+</span></span></code></pre></div><h2 id=功能配置>功能配置</h2><h3 id=搜索功能>搜索功能</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>search</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>path</span> <span class=p>=</span> <span class=s2>&#34;/index.json&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>field</span> <span class=p>=</span> <span class=s2>&#34;post&#34;</span>  <span class=c># post | page | all</span>
+</span></span><span class=line><span class=cl><span class=nx>content</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span></code></pre></div><h3 id=导航栏>导航栏</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>navbar</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>blog_title</span> <span class=p>=</span> <span class=s2>&#34;Hugo Fluid&#34;</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>navbar</span><span class=p>.</span><span class=nx>ground_glass</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>px</span> <span class=p>=</span> <span class=mi>3</span>
+</span></span><span class=line><span class=cl><span class=nx>alpha</span> <span class=p>=</span> <span class=mf>0.7</span>
+</span></span></code></pre></div><h3 id=页脚>页脚</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>footer</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>content</span> <span class=p>=</span> <span class=s1>&#39;&#39;&#39;
+</span></span></span><span class=line><span class=cl><span class=s1>&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;&lt;span&gt;Hugo&lt;/span&gt;&lt;/a&gt;
+</span></span></span><span class=line><span class=cl><span class=s1>&lt;i class=&#34;iconfont icon-love&#34;&gt;&lt;/i&gt;
+</span></span></span><span class=line><span class=cl><span class=s1>&lt;a href=&#34;https://github.com/ouraihub-hugo-themes/hugo-theme-fluid-dist&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;&lt;span&gt;Fluid&lt;/span&gt;&lt;/a&gt;
+</span></span></span><span class=line><span class=cl><span class=s1>&#39;&#39;&#39;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>footer</span><span class=p>.</span><span class=nx>statistics</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>source</span> <span class=p>=</span> <span class=s2>&#34;busuanzi&#34;</span>  <span class=c># busuanzi | leancloud | umami</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>footer</span><span class=p>.</span><span class=nx>beian</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>icp_text</span> <span class=p>=</span> <span class=s2>&#34;京ICP证123456号&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>police_text</span> <span class=p>=</span> <span class=s2>&#34;京公网安备12345678号&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>police_code</span> <span class=p>=</span> <span class=s2>&#34;12345678&#34;</span>
+</span></span></code></pre></div><h3 id=图片懒加载>图片懒加载</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>lazyload</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>loading_img</span> <span class=p>=</span> <span class=s2>&#34;/img/loading.gif&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>onlypost</span> <span class=p>=</span> <span class=kc>false</span>
+</span></span><span class=line><span class=cl><span class=nx>offset_factor</span> <span class=p>=</span> <span class=mi>2</span>
+</span></span></code></pre></div><h3 id=数学公式>数学公式</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>.</span><span class=nx>math</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>specific</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>engine</span> <span class=p>=</span> <span class=s2>&#34;mathjax&#34;</span>  <span class=c># mathjax | katex</span>
+</span></span></code></pre></div><h3 id=流程图>流程图</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>.</span><span class=nx>mermaid</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>specific</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>.</span><span class=nx>mermaid</span><span class=p>.</span><span class=nx>options</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>theme</span> <span class=p>=</span> <span class=s2>&#34;default&#34;</span>
+</span></span></code></pre></div><h2 id=菜单配置>菜单配置</h2><h3 id=主菜单-menuszhtoml>主菜单 (menus.zh.toml)</h3><p>Hugo Fluid 主题支持普通菜单项和下拉菜单。菜单配置文件位于 <code>config/_default/menus.zh.toml</code>（中文）、<code>menus.en.toml</code>（英文）、<code>menus.tw.toml</code>（繁体中文）。</p><h4 id=普通菜单项>普通菜单项</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;首页&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>1</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-home-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;归档&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/archives/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>2</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-archive-fill&#34;</span>
+</span></span></code></pre></div><h4 id=下拉菜单配置>下拉菜单配置</h4><p>下拉菜单需要一个父菜单项和多个子菜单项。父菜单项使用 <code>hasChildren = true</code> 标识，子菜单项使用 <code>parent</code> 属性指向父菜单。</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># 父菜单项 - 文档下拉菜单</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;文档&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>7</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-books&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>hasChildren</span> <span class=p>=</span> <span class=kc>true</span>  <span class=c># 标识这是一个下拉菜单</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># 子菜单项 1</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;快速开始&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>71</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;文档&#34;</span>  <span class=c># 指向父菜单的 name</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># 子菜单项 2</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;配置指南&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/config/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>72</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;文档&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># 子菜单项 3</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;主题特性&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/features/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>73</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;文档&#34;</span>
+</span></span></code></pre></div><h4 id=菜单参数说明>菜单参数说明</h4><table><thead><tr><th>参数</th><th>说明</th><th>示例</th></tr></thead><tbody><tr><td><code>name</code></td><td>菜单显示名称</td><td><code>"首页"</code></td></tr><tr><td><code>url</code></td><td>链接地址</td><td><code>"/"</code> 或 <code>"https://example.com"</code></td></tr><tr><td><code>weight</code></td><td>排序权重（数字越小越靠前）</td><td><code>1</code>, <code>2</code>, <code>3</code></td></tr><tr><td><code>pre</code></td><td>图标类名</td><td><code>"iconfont icon-home-fill"</code></td></tr><tr><td><code>post</code></td><td>链接打开方式</td><td><code>"_blank"</code>（新标签页）</td></tr><tr><td><code>hasChildren</code></td><td>是否为下拉菜单父项</td><td><code>true</code></td></tr><tr><td><code>parent</code></td><td>父菜单名称（仅子菜单项使用）</td><td><code>"文档"</code></td></tr></tbody></table><h4 id=外部链接配置>外部链接配置</h4><p>如果要链接到外部网站并在新标签页打开：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;GitHub&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;https://github.com/ouraihub-hugo-themes/hugo-theme-fluid-dist&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>8</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-github&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>post</span> <span class=p>=</span> <span class=s2>&#34;_blank&#34;</span>  <span class=c># 在新标签页打开</span>
+</span></span></code></pre></div><h4 id=下拉菜单外部链接>下拉菜单外部链接</h4><p>下拉菜单也可以包含外部链接：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># 父菜单项</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;链接&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;#&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>9</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-link&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>hasChildren</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># 外部链接子项</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;官方文档&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;https://gohugo.io/documentation/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>91</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;链接&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>post</span> <span class=p>=</span> <span class=s2>&#34;_blank&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># 内部链接子项</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;友情链接&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/links/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>92</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;链接&#34;</span>
+</span></span></code></pre></div><h4 id=权重排序规则>权重排序规则</h4><ul><li>主菜单项权重：1-10（推荐间隔为 1）</li><li>子菜单项权重：父菜单权重 × 10 + 序号<ul><li>例如：父菜单权重为 7，子菜单权重为 71、72、73</li></ul></li></ul><h4 id=图标配置>图标配置</h4><p>主题使用 iconfont 图标库，常用图标类名：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># 常用图标</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-home-fill&#34;</span>      <span class=c># 首页</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-archive-fill&#34;</span>   <span class=c># 归档</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-category-fill&#34;</span>  <span class=c># 分类</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-tags-fill&#34;</span>      <span class=c># 标签</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-link-fill&#34;</span>      <span class=c># 友链</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-user-fill&#34;</span>      <span class=c># 关于</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-books&#34;</span>          <span class=c># 文档</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-github&#34;</span>         <span class=c># GitHub</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-search&#34;</span>         <span class=c># 搜索</span>
+</span></span></code></pre></div><h4 id=完整示例>完整示例</h4><p>以下是一个包含普通菜单和下拉菜单的完整配置示例：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># 普通菜单项</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;首页&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>1</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-home-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;归档&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/archives/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>2</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-archive-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;分类&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/categories/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>3</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-category-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;标签&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/tags/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>4</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-tags-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;友链&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/links/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>5</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-link-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;关于&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/about/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>6</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-user-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># 文档下拉菜单</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;文档&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>7</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-books&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>hasChildren</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;快速开始&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>71</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;文档&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;配置指南&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/config/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>72</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;文档&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;主题特性&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/features/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>73</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;文档&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># 外部链接下拉菜单</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;相关链接&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;#&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>8</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-link&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>hasChildren</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Hugo 官网&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;https://gohugo.io/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>81</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;相关链接&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>post</span> <span class=p>=</span> <span class=s2>&#34;_blank&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;GitHub 仓库&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;https://github.com/ouraihub-hugo-themes/hugo-theme-fluid-dist&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>82</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;相关链接&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>post</span> <span class=p>=</span> <span class=s2>&#34;_blank&#34;</span>
+</span></span></code></pre></div><h4 id=多语言菜单>多语言菜单</h4><p>不同语言的菜单配置文件：</p><ul><li><code>menus.zh.toml</code> - 简体中文菜单</li><li><code>menus.en.toml</code> - 英文菜单</li><li><code>menus.tw.toml</code> - 繁体中文菜单</li></ul><p>每个语言文件的结构相同，只需要翻译 <code>name</code> 字段：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># menus.en.toml</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Docs&#34;</span>           <span class=c># 英文名称</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>7</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-books&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>hasChildren</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Quick Start&#34;</span>    <span class=c># 英文名称</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>71</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;Docs&#34;</span>         <span class=c># 对应英文父菜单名</span>
+</span></span></code></pre></div><h1 id=下拉菜单示例>下拉菜单示例</h1><p>[[main]]
+name = &ldquo;文档&rdquo;
+url = &ldquo;/docs/&rdquo;
+weight = 7
+pre = &ldquo;iconfont icon-books&rdquo;
+hasChildren = true</p><p>[[main]]
+name = &ldquo;快速开始&rdquo;
+url = &ldquo;/docs/&rdquo;
+weight = 71
+parent = &ldquo;文档&rdquo;</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>## 多语言配置
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>### 语言设置 (languages.toml)
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>```toml
+</span></span><span class=line><span class=cl>[zh]
+</span></span><span class=line><span class=cl>languageCode = &#34;zh-CN&#34;
+</span></span><span class=line><span class=cl>languageName = &#34;简体中文&#34;
+</span></span><span class=line><span class=cl>weight = 1
+</span></span><span class=line><span class=cl>title = &#34;Hugo Fluid 博客&#34;
+</span></span><span class=line><span class=cl>contentDir = &#34;content/zh&#34;
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>[en]
+</span></span><span class=line><span class=cl>languageCode = &#34;en&#34;
+</span></span><span class=line><span class=cl>languageName = &#34;English&#34;
+</span></span><span class=line><span class=cl>weight = 2
+</span></span><span class=line><span class=cl>title = &#34;Hugo Fluid Blog&#34;
+</span></span><span class=line><span class=cl>contentDir = &#34;content/en&#34;
+</span></span></code></pre></div><h3 id=语言特定参数>语言特定参数</h3><p>创建 <code>params.zh.toml</code>：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>index</span><span class=p>.</span><span class=nx>slogan</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>text</span> <span class=p>=</span> <span class=s2>&#34;一个优雅的 Material Design 风格 Hugo 主题&#34;</span>
+</span></span></code></pre></div><p>创建 <code>params.en.toml</code>：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>index</span><span class=p>.</span><span class=nx>slogan</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>text</span> <span class=p>=</span> <span class=s2>&#34;An elegant Material-Design theme for Hugo&#34;</span>
+</span></span></code></pre></div><h2 id=评论系统配置>评论系统配置</h2><h3 id=giscus>Giscus</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>.</span><span class=nx>comments</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>type</span> <span class=p>=</span> <span class=s2>&#34;giscus&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>giscus</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>repo</span> <span class=p>=</span> <span class=s2>&#34;your-username/your-repo&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>repo-id</span> <span class=p>=</span> <span class=s2>&#34;your-repo-id&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>category</span> <span class=p>=</span> <span class=s2>&#34;Announcements&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>category-id</span> <span class=p>=</span> <span class=s2>&#34;your-category-id&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>mapping</span> <span class=p>=</span> <span class=s2>&#34;pathname&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>theme-light</span> <span class=p>=</span> <span class=s2>&#34;light&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>theme-dark</span> <span class=p>=</span> <span class=s2>&#34;dark&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>lang</span> <span class=p>=</span> <span class=s2>&#34;zh-CN&#34;</span>
+</span></span></code></pre></div><h3 id=utterances>Utterances</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>.</span><span class=nx>comments</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>type</span> <span class=p>=</span> <span class=s2>&#34;utterances&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>utterances</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>repo</span> <span class=p>=</span> <span class=s2>&#34;your-username/your-repo&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>issue_term</span> <span class=p>=</span> <span class=s2>&#34;pathname&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>label</span> <span class=p>=</span> <span class=s2>&#34;utterances&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>theme</span> <span class=p>=</span> <span class=s2>&#34;github-light&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>theme_dark</span> <span class=p>=</span> <span class=s2>&#34;github-dark&#34;</span>
+</span></span></code></pre></div><h2 id=高级配置>高级配置</h2><h3 id=自定义-css>自定义 CSS</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=nx>custom_css</span> <span class=p>=</span> <span class=p>[</span>
+</span></span><span class=line><span class=cl>  <span class=s2>&#34;/css/custom.css&#34;</span>
+</span></span><span class=line><span class=cl><span class=p>]</span>
+</span></span></code></pre></div><h3 id=自定义-javascript>自定义 JavaScript</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=nx>custom_js</span> <span class=p>=</span> <span class=p>[</span>
+</span></span><span class=line><span class=cl>  <span class=s2>&#34;/js/custom.js&#34;</span>
+</span></span><span class=line><span class=cl><span class=p>]</span>
+</span></span></code></pre></div><h3 id=open-graph>Open Graph</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>open_graph</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>twitter_card</span> <span class=p>=</span> <span class=s2>&#34;summary_large_image&#34;</span>
+</span></span></code></pre></div><h3 id=网站统计>网站统计</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>footer</span><span class=p>.</span><span class=nx>statistics</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>source</span> <span class=p>=</span> <span class=s2>&#34;busuanzi&#34;</span>
+</span></span><span class=line><span class=cl><span class=c># 自定义格式</span>
+</span></span><span class=line><span class=cl><span class=nx>pv_format</span> <span class=p>=</span> <span class=s2>&#34;总访问量 {} 次&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>uv_format</span> <span class=p>=</span> <span class=s2>&#34;总访客数 {} 人&#34;</span>
+</span></span></code></pre></div><h2 id=常见问题>常见问题</h2><h3 id=如何自定义-banner-图片>如何自定义 Banner 图片？</h3><p>在页面的 Front Matter 中设置：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nn>---</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>title</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;我的文章&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>banner_img</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;/img/my-banner.jpg&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>banner_img_height</span><span class=p>:</span><span class=w> </span><span class=m>70</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>banner_mask_alpha</span><span class=p>:</span><span class=w> </span><span class=m>0.3</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nn>---</span><span class=w>
+</span></span></span></code></pre></div><h3 id=如何禁用某个页面的功能>如何禁用某个页面的功能？</h3><p>在页面的 Front Matter 中设置：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nn>---</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>title</span><span class=p>:</span><span class=w> </span><span class=s2>&#34;我的文章&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>toc</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>          </span><span class=c># 禁用目录</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>comments</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>     </span><span class=c># 禁用评论</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>copyright</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>    </span><span class=c># 禁用版权声明</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nn>---</span><span class=w>
+</span></span></span></code></pre></div><h3 id=如何添加自定义页面>如何添加自定义页面？</h3><ol><li>创建页面文件：</li></ol><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>hugo new page/my-page.md
+</span></span></code></pre></div><ol start=2><li>在菜单中添加链接：</li></ol><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;我的页面&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/page/my-page/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>10</span>
+</span></span></code></pre></div><p>更多配置选项请参考 <a href=/zh/docs/features/>主题特性</a> 页面。</p></div><hr><div class=mt-8><h3 class="text-lg font-semibold mb-4">其他文档</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-4"><a href=/zh/docs/ class="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow"><h4 class="font-medium text-blue-600 hover:text-blue-800">文档</h4><p class="text-sm text-gray-600 mt-1">Hugo Fluid 主题使用文档</p></a><a href=/zh/docs/dropdown-menu/ class="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow"><h4 class="font-medium text-blue-600 hover:text-blue-800">下拉菜单配置指南</h4><p class="text-sm text-gray-600 mt-1">详细说明如何在 Hugo Fluid 主题中配置下拉菜单</p></a><a href=/zh/docs/features/ class="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow"><h4 class="font-medium text-blue-600 hover:text-blue-800">主题特性</h4><p class="text-sm text-gray-600 mt-1">Hugo Fluid 主题的所有特性和功能介绍</p></a></div></div></article></div></div></div><div class="side-col d-none d-lg-block col-lg-2"><div id=toc class=sidebar data-collapse-depth=0><p class=toc-header><i class="iconfont icon-list"></i>
+<span>Table of Contents</span></p><div class=toc-body id=toc-body><nav id=TableOfContents><ul><li><a href=#基础配置>基础配置</a><ul><li><a href=#hugo-配置-hugotoml>Hugo 配置 (hugo.toml)</a></li><li><a href=#主题参数-paramstoml>主题参数 (params.toml)</a><ul><li><a href=#全局配置>全局配置</a></li><li><a href=#主题颜色>主题颜色</a></li><li><a href=#深色模式>深色模式</a></li></ul></li></ul></li><li><a href=#页面配置>页面配置</a><ul><li><a href=#首页配置>首页配置</a></li><li><a href=#文章页配置>文章页配置</a></li><li><a href=#归档页配置>归档页配置</a></li><li><a href=#分类页配置>分类页配置</a></li><li><a href=#标签页配置>标签页配置</a></li></ul></li><li><a href=#功能配置>功能配置</a><ul><li><a href=#搜索功能>搜索功能</a></li><li><a href=#导航栏>导航栏</a></li><li><a href=#页脚>页脚</a></li><li><a href=#图片懒加载>图片懒加载</a></li><li><a href=#数学公式>数学公式</a></li><li><a href=#流程图>流程图</a></li></ul></li><li><a href=#菜单配置>菜单配置</a><ul><li><a href=#主菜单-menuszhtoml>主菜单 (menus.zh.toml)</a><ul><li><a href=#普通菜单项>普通菜单项</a></li><li><a href=#下拉菜单配置>下拉菜单配置</a></li><li><a href=#菜单参数说明>菜单参数说明</a></li><li><a href=#外部链接配置>外部链接配置</a></li><li><a href=#下拉菜单外部链接>下拉菜单外部链接</a></li><li><a href=#权重排序规则>权重排序规则</a></li><li><a href=#图标配置>图标配置</a></li><li><a href=#完整示例>完整示例</a></li><li><a href=#多语言菜单>多语言菜单</a></li></ul></li></ul></li></ul><ul><li><ul><li><a href=#语言特定参数>语言特定参数</a></li></ul></li><li><a href=#评论系统配置>评论系统配置</a><ul><li><a href=#giscus>Giscus</a></li><li><a href=#utterances>Utterances</a></li></ul></li><li><a href=#高级配置>高级配置</a><ul><li><a href=#自定义-css>自定义 CSS</a></li><li><a href=#自定义-javascript>自定义 JavaScript</a></li><li><a href=#open-graph>Open Graph</a></li><li><a href=#网站统计>网站统计</a></li></ul></li><li><a href=#常见问题>常见问题</a><ul><li><a href=#如何自定义-banner-图片>如何自定义 Banner 图片？</a></li><li><a href=#如何禁用某个页面的功能>如何禁用某个页面的功能？</a></li><li><a href=#如何添加自定义页面>如何添加自定义页面？</a></li></ul></li></ul></nav></div></div></div></div></div></main><footer class=footer><div class=footer-inner><div class=footer-content><a href=https://gohugo.io target=_blank rel="nofollow noopener"><span>Hugo</span></a>
+<i class="iconfont icon-love"></i>
+<a href=https://github.com/fluid-dev/hexo-theme-fluid target=_blank rel="nofollow noopener"><span>Fluid</span></a></div><div class=statistics><script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script></div><div class=beian><span><a href=https://beian.miit.gov.cn/ target=_blank rel="nofollow noopener">京ICP证123456号
+</a></span><span><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12345678" rel="nofollow noopener" class=beian-police target=_blank><span style=visibility:hidden;width:0>|</span>
+<img src=/img/police_beian.png alt=police-icon width=16 height=16 loading=lazy>
+<span>京公网安备12345678号</span></a></span></div></div></footer><a id=scroll-top-button aria-label=TOP href=# role=button><i class="iconfont icon-arrowup" aria-hidden=true></i>
+</a><link href=/pagefind/pagefind-ui.css rel=stylesheet><div class="modal fade" id=modalSearch tabindex=-1 role=dialog aria-labelledby=ModalLabel aria-hidden=true><div class="modal-dialog modal-dialog-scrollable" role=document><div class=modal-content><div class="modal-header text-center"><h4 class="modal-title w-100 font-weight-bold">Search</h4><button type=button id=local-search-close class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class="modal-body mx-3"><div id=pagefind-search></div></div></div></div></div><script src=/pagefind/pagefind-ui.js></script><script>(function(){let t=!1;function n(){if(t)return;const n=document.getElementById("pagefind-search");if(!n)return;if(typeof PagefindUI=="undefined"){e(n);return}fetch("/pagefind/pagefind.js").then(function(s){if(!s.ok){e(n);return}var o={placeholder:'"Search posts..."',clear_search:'"清除"',load_more:'"加载更多"',search_label:'"搜索"',filters_label:'"筛选"',zero_results:'"No results found"',many_results:'"找到 [SEARCH_TERM] 的 [COUNT] 个结果"',one_result:'"找到 [SEARCH_TERM] 的 [COUNT] 个结果"',alt_search:'"没有找到 [SEARCH_TERM] 的结果。显示 [DIFFERENT_TERM] 的结果"',search_suggestion:'"试试搜索"',searching:'"搜索中..."'};new PagefindUI({element:"#pagefind-search",baseUrl:window.location.origin,bundlePath:"/pagefind/",showSubResults:!0,showImages:!1,excerptLength:30,resetStyles:!1,showEmptyFilters:!1,processResult:function(e){return e},translations:o}),t=!0}).catch(function(){e(n)})}function e(e){var t,n,s,o,i=document.documentElement.lang||"en";i.indexOf("zh")===0?(t="开发模式提示",n="您需要先构建项目才能使用搜索功能。",s="pnpm run build",o="构建完成后，可以使用 pnpm dev 继续开发。"):i.indexOf("ja")===0?(t="開発モードの警告",n="検索機能を使用するには、プロジェクトをビルドする必要があります。",s="pnpm run build",o="ビルド後、pnpm dev で開発を続けることができます。"):(t="DEV Mode Warning",n="You need to build the project to use search.",s="pnpm run build",o="After building, you can use pnpm dev to continue development."),e.innerHTML='<div style="padding: 1rem; text-align: center;"><p style="font-weight: 600; font-size: 1.1rem; margin-bottom: 0.5rem;">'+t+'</p><p style="margin-bottom: 0.75rem;">'+n+'</p><code style="background: #f5f5f5; padding: 0.25rem 0.5rem; border-radius: 4px;">'+s+'</code><p style="margin-top: 0.75rem; font-size: 0.875rem; opacity: 0.8;">'+o+"</p></div>"}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",n):n()})()</script><style>#modalSearch .modal-content{background-color:var(--board-bg-color,#fff);color:var(--text-color,#3c4858)}#modalSearch .modal-header{border-bottom:1px solid var(--line-color,#eee)}#modalSearch .modal-title{color:var(--text-color,#3c4858)}#modalSearch .close{color:var(--text-color,#3c4858);opacity:.7}#modalSearch .close:hover{opacity:1}#modalSearch #pagefind-search{--pagefind-ui-font:inherit;--pagefind-ui-text:var(--text-color, #3c4858);--pagefind-ui-background:var(--board-bg-color, #fff);--pagefind-ui-border:var(--line-color, #eee);--pagefind-ui-primary:var(--link-color, #0366d6);--pagefind-ui-tag:var(--board-bg-color, #fff);--pagefind-ui-border-radius:0.25rem;--pagefind-ui-border-width:1px;--pagefind-ui-scale:1}#modalSearch .pagefind-ui__form::before{display:none!important}#modalSearch .pagefind-ui__search-input{font-weight:400;font-size:1rem;padding:.5rem .75rem!important;border:none!important;border-bottom:1px solid var(--link-color,#0366d6)!important;border-radius:0!important;background-color:transparent!important;color:var(--text-color,#3c4858)!important;box-shadow:none!important;width:100%!important}#modalSearch .pagefind-ui__search-input:focus{outline:none!important;border-bottom:2px solid var(--link-color,#0366d6)!important}#modalSearch .pagefind-ui__search-input::placeholder{color:var(--text-color,#3c4858);opacity:.6}#modalSearch .pagefind-ui__result-title a{color:var(--link-color,#0366d6);text-decoration:none}#modalSearch .pagefind-ui__result-title a:hover{color:var(--link-hover-color,#30a9de);text-decoration:underline}#modalSearch .pagefind-ui__result-link{display:block;color:inherit;text-decoration:none}#modalSearch .pagefind-ui__result-link:hover{color:inherit;text-decoration:none}#modalSearch .pagefind-ui__result{cursor:pointer}#modalSearch .pagefind-ui__result:hover{background-color:var(--board-bg-color-hover,rgba(0,0,0,5%))}#modalSearch mark{background-color:var(--link-color,#0366d6);color:#fff;padding:0 2px;border-radius:2px}#modalSearch .pagefind-ui__results{margin-top:1rem}#modalSearch .pagefind-ui__result{padding:.75rem 0;border-bottom:1px solid var(--line-color,#eee)}#modalSearch .pagefind-ui__result:last-child{border-bottom:none}[data-user-color-scheme=dark] #modalSearch .modal-content{background-color:var(--board-bg-color,#252d38);color:var(--text-color,#c4c6c9)}[data-user-color-scheme=dark] #modalSearch .modal-header{border-bottom-color:var(--line-color,#435266)}[data-user-color-scheme=dark] #modalSearch .modal-title{color:var(--text-color,#c4c6c9)}[data-user-color-scheme=dark] #modalSearch .close{color:var(--text-color,#c4c6c9)}[data-user-color-scheme=dark] #modalSearch .pagefind-ui__search-input::placeholder{color:var(--text-color,#c4c6c9)}[data-user-color-scheme=dark] #modalSearch .pagefind-ui__result{border-bottom-color:var(--line-color,#435266)}</style><script src=/js/main.js defer></script></body></html>

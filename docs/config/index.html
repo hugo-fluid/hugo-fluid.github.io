@@ -1,0 +1,307 @@
+<!doctype html><html lang=en data-user-color-scheme=auto><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=theme-color content="#2f4154" media="(prefers-color-scheme: light)"><meta name=theme-color content="#1f3144" media="(prefers-color-scheme: dark)"><link rel=preconnect href=//at.alicdn.com crossorigin><link rel=dns-prefetch href=//at.alicdn.com><title>Configuration Guide - Hugo Fluid Blog</title><link rel=icon href=/img/fluid.png><link rel=apple-touch-icon href=/img/fluid.png><meta name=description content="Detailed configuration guide for Hugo Fluid theme"><meta name=author content="Fluid"><link rel=canonical href=https://hugo-fluid.github.io/docs/config/><meta property="og:title" content="Configuration Guide"><meta property="og:description" content="Detailed configuration guide for Hugo Fluid theme"><meta property="og:type" content="website"><meta property="og:url" content="https://hugo-fluid.github.io/docs/config/"><meta property="og:site_name" content="Hugo Fluid Blog"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Configuration Guide"><meta name=twitter:description content="Detailed configuration guide for Hugo Fluid theme"><script src=/js/color-schema.js></script><script id=fluid-configs>var CONFIG,dntVal,Fluid=window.Fluid||{};Fluid.ctx=Object.assign({},Fluid.ctx),CONFIG={hostname:'"https://hugo-fluid.github.io/"',root:'"/"',version:"1.0.0-dev",typing:{enable:!0,typeSpeed:70,cursorChar:'"_"',loop:!1},anchorjs:{enable:!0,element:'"h1,h2,h3,h4,h5,h6"',placement:'"left"',visible:'"hover"',icon:'""'},progressbar:{enable:!0,height_px:3,color:'"#29d"'},code:{copy_btn:!0,language:{enable:!0,default:'"TEXT"'},highlight:{enable:!0,line_number:!0}},image_caption:{enable:!0},image_zoom:{enable:!0,img_url_replace:'["",""]'},toc:{enable:!0,placement:'"right"',headingSelector:'"h1,h2,h3,h4,h5,h6"',collapseDepth:0},lazyload:{enable:!0,loading_img:'"/img/loading.gif"',onlypost:!1,offset_factor:2},search_path:'"/index.json"',include_content_in_search:!0},CONFIG.web_analytics&&CONFIG.web_analytics.follow_dnt&&(dntVal=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,Fluid.ctx.dnt=dntVal&&(dntVal.startsWith("1")||dntVal.startsWith("yes")||dntVal.startsWith("on")))</script><link rel=stylesheet href=//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css><link rel=stylesheet href=//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css><link rel=stylesheet href=/css/main.css><link rel=alternate type=application/rss+xml title="Hugo Fluid Blog" href=/docs/config/index.xml><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css><style>#nprogress .bar{background:#29d!important;height:3px!important}#nprogress .peg{box-shadow:0 0 10px #29d,0 0 5px #29d!important}#nprogress .spinner-icon{border-top-color:#29d!important;border-left-color:#29d!important}</style><script src=https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js></script><script>NProgress.configure({showSpinner:!1,trickleSpeed:100,minimum:.08,parent:"body"});function startNProgress(){document.body?NProgress.start():document.addEventListener("DOMContentLoaded",function(){NProgress.start()})}startNProgress(),window.addEventListener("load",function(){NProgress.done()})</script></head><body><a href=#board class=skip-link>Skip to content</a><div class=header-inner style=height:60vh><nav id=navbar class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar"><div class=container><a class=navbar-brand href=/><strong>Hugo Fluid</strong>
+</a><button id=navbar-toggler-btn class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation"><div class=animated-icon><span></span><span></span><span></span></div></button><div class="collapse navbar-collapse" id=navbarSupportedContent><ul class="navbar-nav ml-auto text-center"><li class=nav-item><a class=nav-link href=/ target=_self><i class="iconfont icon-home-fill"></i>
+<span>Home</span></a></li><li class=nav-item><a class=nav-link href=/archives/ target=_self><i class="iconfont icon-archive-fill"></i>
+<span>Archives</span></a></li><li class=nav-item><a class=nav-link href=/categories/ target=_self><i class="iconfont icon-category-fill"></i>
+<span>Categories</span></a></li><li class=nav-item><a class=nav-link href=/tags/ target=_self><i class="iconfont icon-tags-fill"></i>
+<span>Tags</span></a></li><li class=nav-item><a class=nav-link href=/links/ target=_self><i class="iconfont icon-link-fill"></i>
+<span>Links</span></a></li><li class=nav-item><a class=nav-link href=/about/ target=_self><i class="iconfont icon-user-fill"></i>
+<span>About</span></a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" target=_self href=javascript:; role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false><i class="iconfont icon-books"></i>
+<span>Docs</span>
+<i class="iconfont icon-arrow-down dropdown-arrow"></i></a><div class=dropdown-menu aria-labelledby=navbarDropdown><a class=dropdown-item href=/en/docs/ target=_blank><span>Quick Start</span>
+</a><a class=dropdown-item href=/en/docs/config/ target=_blank><span>Configuration</span>
+</a><a class=dropdown-item href=/en/docs/features/ target=_blank><span>Features</span>
+</a><a class=dropdown-item href=/en/docs/dropdown-menu/ target=_blank><span>Dropdown Menu Config</span></a></div></li><li class=nav-item id=search-btn><a class=nav-link target=_self href=javascript:; data-toggle=modal data-target=#modalSearch aria-label=Search><i class="iconfont icon-search"></i></a></li><li class=nav-item id=language-switch-btn><div class=language-dropdown><a class="nav-link language-current" href=javascript:; aria-label="Switch to" title="Switch to"><span class=language-code>EN</span>
+<i class="iconfont icon-arrowdown language-arrow"></i></a><div class=language-menu><a class=language-item href=/zh/docs/config/ title="Switch to 简体中文"><span class=language-code>简</span>
+<span class=language-name>简体中文</span>
+</a><span class="language-item language-item-current"><span class=language-code>EN</span>
+<span class=language-name>English</span>
+</span><a class=language-item href=/tw/docs/config/ title="Switch to 繁體中文"><span class=language-code>繁</span>
+<span class=language-name>繁體中文</span></a></div></div></li><li class=nav-item id=color-toggle-btn><a class=nav-link target=_self href=javascript:; aria-label="Toggle theme"><i class="iconfont icon-dark" id=color-toggle-icon></i></a></li></ul></div></div></nav><style>.navbar .dropdown-collapse,.top-nav-collapse,.navbar-col-show{backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);background-color:rgba(47,65,84,.7)}[data-user-color-scheme=dark] .navbar .dropdown-collapse,[data-user-color-scheme=dark] .top-nav-collapse,[data-user-color-scheme=dark] .navbar-col-show{background-color:rgba(31,49,68,.7)}</style><div id=banner class=banner parallax=true style="background:url(/img/default.png)no-repeat 50%;background-size:cover"><div class=full-bg-img><div class="mask flex-center" style=background-color:rgba(0,0,0,.3)><div class="banner-text text-center fade-in-up"><div class=h2><span id=subtitle data-typed-text="Configuration Guide">Configuration Guide</span></div></div></div></div></div><script src=https://lib.baomitu.com/typed.js/2.0.12/typed.min.js></script><script>(function(e,t){"use strict";var n={typeSpeed:70,cursorChar:"_",loop:!1};function o(e){if(typeof Typed=="undefined"){console.warn("Typed.js not loaded");return}var o,s=t.getElementById("subtitle");s&&(s.innerText=""),o=new Typed("#subtitle",{strings:["  ",e],cursorChar:n.cursorChar,typeSpeed:n.typeSpeed,loop:n.loop,startDelay:300})}function s(){var e,n=t.getElementById("subtitle");if(!n)return;if(e=n.getAttribute("data-typed-text"),!e)return;o(e)}t.readyState==="complete"?s():e.addEventListener("load",s)})(window,document)</script></div><main><div class="container-fluid nopadding-x"><div class="row nomargin-x"><div class="side-col d-none d-lg-block col-lg-2"></div><div class="col-lg-8 nopadding-x-md"><div class="container nopadding-x-md" id=board-ctn><div id=board><article class="post-content mx-auto"><h1 id=seo-header>Configuration Guide</h1><blockquote class=post-description>Detailed configuration guide for Hugo Fluid theme</blockquote><div class=markdown-body data-pagefind-body><h1 id=configuration-guide>Configuration Guide</h1><p>This page provides detailed information about configuring the Hugo Fluid theme.</p><h2 id=basic-configuration>Basic Configuration</h2><h3 id=hugo-configuration-hugotoml>Hugo Configuration (hugo.toml)</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=nx>baseURL</span> <span class=p>=</span> <span class=s2>&#34;https://example.com/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>title</span> <span class=p>=</span> <span class=s2>&#34;My Blog&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>theme</span> <span class=p>=</span> <span class=s2>&#34;hugo-theme-fluid&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># Default language</span>
+</span></span><span class=line><span class=cl><span class=nx>defaultContentLanguage</span> <span class=p>=</span> <span class=s2>&#34;en&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>defaultContentLanguageInSubdir</span> <span class=p>=</span> <span class=kc>false</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># CJK language support</span>
+</span></span><span class=line><span class=cl><span class=nx>hasCJKLanguage</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># Output formats</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>outputs</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>home</span> <span class=p>=</span> <span class=p>[</span><span class=s2>&#34;HTML&#34;</span><span class=p>,</span> <span class=s2>&#34;RSS&#34;</span><span class=p>,</span> <span class=s2>&#34;JSON&#34;</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>section</span> <span class=p>=</span> <span class=p>[</span><span class=s2>&#34;HTML&#34;</span><span class=p>,</span> <span class=s2>&#34;RSS&#34;</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>taxonomy</span> <span class=p>=</span> <span class=p>[</span><span class=s2>&#34;HTML&#34;</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>term</span> <span class=p>=</span> <span class=p>[</span><span class=s2>&#34;HTML&#34;</span><span class=p>]</span>
+</span></span></code></pre></div><h3 id=theme-parameters-paramstoml>Theme Parameters (params.toml)</h3><h4 id=global-configuration>Global Configuration</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># Site icons</span>
+</span></span><span class=line><span class=cl><span class=nx>favicon</span> <span class=p>=</span> <span class=s2>&#34;/img/fluid.png&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>apple_touch_icon</span> <span class=p>=</span> <span class=s2>&#34;/img/fluid.png&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># Site description</span>
+</span></span><span class=line><span class=cl><span class=nx>description</span> <span class=p>=</span> <span class=s2>&#34;An elegant Material-Design theme for Hugo&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>author</span> <span class=p>=</span> <span class=s2>&#34;Your Name&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># Code block configuration</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>code</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>copy_btn</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>code</span><span class=p>.</span><span class=nx>language</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>default</span> <span class=p>=</span> <span class=s2>&#34;TEXT&#34;</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>code</span><span class=p>.</span><span class=nx>highlight</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>line_number</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span></code></pre></div><h4 id=theme-colors>Theme Colors</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>color</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>body_bg_color</span> <span class=p>=</span> <span class=s2>&#34;#eee&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>body_bg_color_dark</span> <span class=p>=</span> <span class=s2>&#34;#181c27&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>navbar_bg_color</span> <span class=p>=</span> <span class=s2>&#34;#2f4154&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>navbar_bg_color_dark</span> <span class=p>=</span> <span class=s2>&#34;#1f3144&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>text_color</span> <span class=p>=</span> <span class=s2>&#34;#3c4858&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>text_color_dark</span> <span class=p>=</span> <span class=s2>&#34;#c4c6c9&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>link_color</span> <span class=p>=</span> <span class=s2>&#34;#0366d6&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>link_color_dark</span> <span class=p>=</span> <span class=s2>&#34;#1589e9&#34;</span>
+</span></span></code></pre></div><h4 id=dark-mode>Dark Mode</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>dark_mode</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>default</span> <span class=p>=</span> <span class=s2>&#34;auto&#34;</span>  <span class=c># auto | light | dark</span>
+</span></span></code></pre></div><h2 id=page-configuration>Page Configuration</h2><h3 id=homepage-configuration>Homepage Configuration</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>index</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img</span> <span class=p>=</span> <span class=s2>&#34;/img/home.webp&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img_height</span> <span class=p>=</span> <span class=mi>100</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_mask_alpha</span> <span class=p>=</span> <span class=mf>0.3</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>index</span><span class=p>.</span><span class=nx>slogan</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=c># Slogan text is set in language-specific configuration</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>index</span><span class=p>.</span><span class=nx>post_meta</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>date</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>category</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>tag</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span></code></pre></div><h3 id=post-page-configuration>Post Page Configuration</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img</span> <span class=p>=</span> <span class=s2>&#34;/img/post.webp&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_img_height</span> <span class=p>=</span> <span class=mi>70</span>
+</span></span><span class=line><span class=cl><span class=nx>banner_mask_alpha</span> <span class=p>=</span> <span class=mf>0.3</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>.</span><span class=nx>toc</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>placement</span> <span class=p>=</span> <span class=s2>&#34;right&#34;</span>  <span class=c># left | right</span>
+</span></span><span class=line><span class=cl><span class=nx>headingSelector</span> <span class=p>=</span> <span class=s2>&#34;h1,h2,h3,h4,h5,h6&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>collapseDepth</span> <span class=p>=</span> <span class=mi>0</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>.</span><span class=nx>copyright</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>license</span> <span class=p>=</span> <span class=s2>&#34;BY&#34;</span>  <span class=c># BY | BY-SA | BY-ND | BY-NC | BY-NC-SA | BY-NC-ND | ZERO</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>post</span><span class=p>.</span><span class=nx>comments</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>false</span>
+</span></span><span class=line><span class=cl><span class=nx>type</span> <span class=p>=</span> <span class=s2>&#34;giscus&#34;</span>  <span class=c># utterances | disqus | gitalk | valine | waline | giscus</span>
+</span></span></code></pre></div><h2 id=feature-configuration>Feature Configuration</h2><h3 id=search-function>Search Function</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>search</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>path</span> <span class=p>=</span> <span class=s2>&#34;/index.json&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>field</span> <span class=p>=</span> <span class=s2>&#34;post&#34;</span>  <span class=c># post | page | all</span>
+</span></span><span class=line><span class=cl><span class=nx>content</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span></code></pre></div><h3 id=navigation-bar>Navigation Bar</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>navbar</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>blog_title</span> <span class=p>=</span> <span class=s2>&#34;Hugo Fluid&#34;</span>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>navbar</span><span class=p>.</span><span class=nx>ground_glass</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>px</span> <span class=p>=</span> <span class=mi>3</span>
+</span></span><span class=line><span class=cl><span class=nx>alpha</span> <span class=p>=</span> <span class=mf>0.7</span>
+</span></span></code></pre></div><h3 id=footer>Footer</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>footer</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>content</span> <span class=p>=</span> <span class=s1>&#39;&#39;&#39;
+</span></span></span><span class=line><span class=cl><span class=s1>&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;&lt;span&gt;Hugo&lt;/span&gt;&lt;/a&gt;
+</span></span></span><span class=line><span class=cl><span class=s1>&lt;i class=&#34;iconfont icon-love&#34;&gt;&lt;/i&gt;
+</span></span></span><span class=line><span class=cl><span class=s1>&lt;a href=&#34;https://github.com/ouraihub-hugo-themes/hugo-theme-fluid-dist&#34; target=&#34;_blank&#34; rel=&#34;nofollow noopener&#34;&gt;&lt;span&gt;Fluid&lt;/span&gt;&lt;/a&gt;
+</span></span></span><span class=line><span class=cl><span class=s1>&#39;&#39;&#39;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>footer</span><span class=p>.</span><span class=nx>statistics</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl><span class=nx>source</span> <span class=p>=</span> <span class=s2>&#34;busuanzi&#34;</span>  <span class=c># busuanzi | leancloud | umami</span>
+</span></span></code></pre></div><h2 id=menu-configuration>Menu Configuration</h2><h3 id=main-menu-menusentoml>Main Menu (menus.en.toml)</h3><p>Hugo Fluid theme supports both regular menu items and dropdown menus. Menu configuration files are located at <code>config/_default/menus.en.toml</code> (English), <code>menus.zh.toml</code> (Chinese), and <code>menus.tw.toml</code> (Traditional Chinese).</p><h4 id=regular-menu-items>Regular Menu Items</h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Home&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>1</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-home-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Archives&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/archives/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>2</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-archive-fill&#34;</span>
+</span></span></code></pre></div><h4 id=dropdown-menu-configuration>Dropdown Menu Configuration</h4><p>Dropdown menus require a parent menu item and multiple child menu items. The parent item uses <code>hasChildren = true</code>, and child items use the <code>parent</code> property to reference the parent menu.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># Parent menu item - Documentation dropdown</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Docs&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>7</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-books&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>hasChildren</span> <span class=p>=</span> <span class=kc>true</span>  <span class=c># Marks this as a dropdown menu</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># Child menu item 1</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Quick Start&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>71</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;Docs&#34;</span>  <span class=c># References parent menu name</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># Child menu item 2</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Configuration&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/config/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>72</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;Docs&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># Child menu item 3</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Features&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/features/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>73</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;Docs&#34;</span>
+</span></span></code></pre></div><h4 id=menu-parameters>Menu Parameters</h4><table><thead><tr><th>Parameter</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><code>name</code></td><td>Display name</td><td><code>"Home"</code></td></tr><tr><td><code>url</code></td><td>Link URL</td><td><code>"/"</code> or <code>"https://example.com"</code></td></tr><tr><td><code>weight</code></td><td>Sort order (lower numbers first)</td><td><code>1</code>, <code>2</code>, <code>3</code></td></tr><tr><td><code>pre</code></td><td>Icon class name</td><td><code>"iconfont icon-home-fill"</code></td></tr><tr><td><code>post</code></td><td>Link target</td><td><code>"_blank"</code> (new tab)</td></tr><tr><td><code>hasChildren</code></td><td>Whether this is a dropdown parent</td><td><code>true</code></td></tr><tr><td><code>parent</code></td><td>Parent menu name (child items only)</td><td><code>"Docs"</code></td></tr></tbody></table><h4 id=external-links>External Links</h4><p>To link to external websites and open in new tab:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;GitHub&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;https://github.com/ouraihub-hugo-themes/hugo-theme-fluid-dist&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>8</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-github&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>post</span> <span class=p>=</span> <span class=s2>&#34;_blank&#34;</span>  <span class=c># Open in new tab</span>
+</span></span></code></pre></div><h4 id=dropdown-with-external-links>Dropdown with External Links</h4><p>Dropdown menus can also contain external links:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># Parent menu item</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Links&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;#&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>9</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-link&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>hasChildren</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># External link child item</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Hugo Docs&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;https://gohugo.io/documentation/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>91</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;Links&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>post</span> <span class=p>=</span> <span class=s2>&#34;_blank&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># Internal link child item</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Friend Links&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/links/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>92</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;Links&#34;</span>
+</span></span></code></pre></div><h4 id=weight-sorting-rules>Weight Sorting Rules</h4><ul><li>Main menu items: 1-10 (recommended interval: 1)</li><li>Child menu items: Parent weight × 10 + sequence number<ul><li>Example: Parent weight 7, child weights 71, 72, 73</li></ul></li></ul><h4 id=icon-configuration>Icon Configuration</h4><p>The theme uses iconfont icon library. Common icon classes:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># Common icons</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-home-fill&#34;</span>      <span class=c># Home</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-archive-fill&#34;</span>   <span class=c># Archives</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-category-fill&#34;</span>  <span class=c># Categories</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-tags-fill&#34;</span>      <span class=c># Tags</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-link-fill&#34;</span>      <span class=c># Links</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-user-fill&#34;</span>      <span class=c># About</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-books&#34;</span>          <span class=c># Documentation</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-github&#34;</span>         <span class=c># GitHub</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-search&#34;</span>         <span class=c># Search</span>
+</span></span></code></pre></div><h4 id=complete-example>Complete Example</h4><p>Here&rsquo;s a complete configuration example with both regular and dropdown menus:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># Regular menu items</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Home&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>1</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-home-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Archives&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/archives/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>2</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-archive-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Categories&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/categories/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>3</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-category-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Tags&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/tags/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>4</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-tags-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Links&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/links/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>5</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-link-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;About&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/about/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>6</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-user-fill&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># Documentation dropdown menu</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Docs&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>7</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-books&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>hasChildren</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Quick Start&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>71</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;Docs&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Configuration&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/config/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>72</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;Docs&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Features&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/features/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>73</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;Docs&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># External links dropdown menu</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Related&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;#&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>8</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-link&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>hasChildren</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;Hugo Official&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;https://gohugo.io/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>81</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;Related&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>post</span> <span class=p>=</span> <span class=s2>&#34;_blank&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;GitHub Repo&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;https://github.com/ouraihub-hugo-themes/hugo-theme-fluid-dist&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>82</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;Related&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>post</span> <span class=p>=</span> <span class=s2>&#34;_blank&#34;</span>
+</span></span></code></pre></div><h4 id=multi-language-menus>Multi-language Menus</h4><p>Different language menu configuration files:</p><ul><li><code>menus.en.toml</code> - English menu</li><li><code>menus.zh.toml</code> - Simplified Chinese menu</li><li><code>menus.tw.toml</code> - Traditional Chinese menu</li></ul><p>Each language file has the same structure, only translate the <code>name</code> field:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># menus.zh.toml</span>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;文档&#34;</span>           <span class=c># Chinese name</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>7</span>
+</span></span><span class=line><span class=cl><span class=nx>pre</span> <span class=p>=</span> <span class=s2>&#34;iconfont icon-books&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>hasChildren</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>main</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl><span class=nx>name</span> <span class=p>=</span> <span class=s2>&#34;快速开始&#34;</span>        <span class=c># Chinese name</span>
+</span></span><span class=line><span class=cl><span class=nx>url</span> <span class=p>=</span> <span class=s2>&#34;/docs/&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>71</span>
+</span></span><span class=line><span class=cl><span class=nx>parent</span> <span class=p>=</span> <span class=s2>&#34;文档&#34;</span>         <span class=c># Corresponding Chinese parent name</span>
+</span></span></code></pre></div><h2 id=multi-language-configuration>Multi-language Configuration</h2><h3 id=language-settings-languagestoml>Language Settings (languages.toml)</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>en</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>languageCode</span> <span class=p>=</span> <span class=s2>&#34;en&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>languageName</span> <span class=p>=</span> <span class=s2>&#34;English&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>1</span>
+</span></span><span class=line><span class=cl><span class=nx>title</span> <span class=p>=</span> <span class=s2>&#34;Hugo Fluid Blog&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>contentDir</span> <span class=p>=</span> <span class=s2>&#34;content/en&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>zh</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=nx>languageCode</span> <span class=p>=</span> <span class=s2>&#34;zh-CN&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>languageName</span> <span class=p>=</span> <span class=s2>&#34;简体中文&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>weight</span> <span class=p>=</span> <span class=mi>2</span>
+</span></span><span class=line><span class=cl><span class=nx>title</span> <span class=p>=</span> <span class=s2>&#34;Hugo Fluid 博客&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>contentDir</span> <span class=p>=</span> <span class=s2>&#34;content/zh&#34;</span>
+</span></span></code></pre></div><p>For more configuration options, please refer to the <a href=/docs/features/>Features</a> page.</p></div></article></div></div></div><div class="side-col d-none d-lg-block col-lg-2"><div id=toc class=sidebar data-collapse-depth=0><p class=toc-header><i class="iconfont icon-list"></i>
+<span>Table of Contents</span></p><div class=toc-body id=toc-body><nav id=TableOfContents><ul><li><a href=#basic-configuration>Basic Configuration</a><ul><li><a href=#hugo-configuration-hugotoml>Hugo Configuration (hugo.toml)</a></li><li><a href=#theme-parameters-paramstoml>Theme Parameters (params.toml)</a><ul><li><a href=#global-configuration>Global Configuration</a></li><li><a href=#theme-colors>Theme Colors</a></li><li><a href=#dark-mode>Dark Mode</a></li></ul></li></ul></li><li><a href=#page-configuration>Page Configuration</a><ul><li><a href=#homepage-configuration>Homepage Configuration</a></li><li><a href=#post-page-configuration>Post Page Configuration</a></li></ul></li><li><a href=#feature-configuration>Feature Configuration</a><ul><li><a href=#search-function>Search Function</a></li><li><a href=#navigation-bar>Navigation Bar</a></li><li><a href=#footer>Footer</a></li></ul></li><li><a href=#menu-configuration>Menu Configuration</a><ul><li><a href=#main-menu-menusentoml>Main Menu (menus.en.toml)</a><ul><li><a href=#regular-menu-items>Regular Menu Items</a></li><li><a href=#dropdown-menu-configuration>Dropdown Menu Configuration</a></li><li><a href=#menu-parameters>Menu Parameters</a></li><li><a href=#external-links>External Links</a></li><li><a href=#dropdown-with-external-links>Dropdown with External Links</a></li><li><a href=#weight-sorting-rules>Weight Sorting Rules</a></li><li><a href=#icon-configuration>Icon Configuration</a></li><li><a href=#complete-example>Complete Example</a></li><li><a href=#multi-language-menus>Multi-language Menus</a></li></ul></li></ul></li><li><a href=#multi-language-configuration>Multi-language Configuration</a><ul><li><a href=#language-settings-languagestoml>Language Settings (languages.toml)</a></li></ul></li></ul></nav></div></div></div></div></div></main><footer class=footer><div class=footer-inner><div class=footer-content><a href=https://gohugo.io target=_blank rel="nofollow noopener"><span>Hugo</span></a>
+<i class="iconfont icon-love"></i>
+<a href=https://github.com/fluid-dev/hexo-theme-fluid target=_blank rel="nofollow noopener"><span>Fluid</span></a></div><div class=statistics><script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script></div></div></footer><a id=scroll-top-button aria-label=TOP href=# role=button><i class="iconfont icon-arrowup" aria-hidden=true></i>
+</a><link href=/pagefind/pagefind-ui.css rel=stylesheet><div class="modal fade" id=modalSearch tabindex=-1 role=dialog aria-labelledby=ModalLabel aria-hidden=true><div class="modal-dialog modal-dialog-scrollable" role=document><div class=modal-content><div class="modal-header text-center"><h4 class="modal-title w-100 font-weight-bold">Search</h4><button type=button id=local-search-close class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class="modal-body mx-3"><div id=pagefind-search></div></div></div></div></div><script src=/pagefind/pagefind-ui.js></script><script>(function(){let t=!1;function n(){if(t)return;const n=document.getElementById("pagefind-search");if(!n)return;if(typeof PagefindUI=="undefined"){e(n);return}fetch("/pagefind/pagefind.js").then(function(s){if(!s.ok){e(n);return}var o={placeholder:'"Search posts..."',clear_search:'"清除"',load_more:'"加载更多"',search_label:'"搜索"',filters_label:'"筛选"',zero_results:'"No results found"',many_results:'"找到 [SEARCH_TERM] 的 [COUNT] 个结果"',one_result:'"找到 [SEARCH_TERM] 的 [COUNT] 个结果"',alt_search:'"没有找到 [SEARCH_TERM] 的结果。显示 [DIFFERENT_TERM] 的结果"',search_suggestion:'"试试搜索"',searching:'"搜索中..."'};new PagefindUI({element:"#pagefind-search",baseUrl:window.location.origin,bundlePath:"/pagefind/",showSubResults:!0,showImages:!1,excerptLength:30,resetStyles:!1,showEmptyFilters:!1,processResult:function(e){return e},translations:o}),t=!0}).catch(function(){e(n)})}function e(e){var t,n,s,o,i=document.documentElement.lang||"en";i.indexOf("zh")===0?(t="开发模式提示",n="您需要先构建项目才能使用搜索功能。",s="pnpm run build",o="构建完成后，可以使用 pnpm dev 继续开发。"):i.indexOf("ja")===0?(t="開発モードの警告",n="検索機能を使用するには、プロジェクトをビルドする必要があります。",s="pnpm run build",o="ビルド後、pnpm dev で開発を続けることができます。"):(t="DEV Mode Warning",n="You need to build the project to use search.",s="pnpm run build",o="After building, you can use pnpm dev to continue development."),e.innerHTML='<div style="padding: 1rem; text-align: center;"><p style="font-weight: 600; font-size: 1.1rem; margin-bottom: 0.5rem;">'+t+'</p><p style="margin-bottom: 0.75rem;">'+n+'</p><code style="background: #f5f5f5; padding: 0.25rem 0.5rem; border-radius: 4px;">'+s+'</code><p style="margin-top: 0.75rem; font-size: 0.875rem; opacity: 0.8;">'+o+"</p></div>"}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",n):n()})()</script><style>#modalSearch .modal-content{background-color:var(--board-bg-color,#fff);color:var(--text-color,#3c4858)}#modalSearch .modal-header{border-bottom:1px solid var(--line-color,#eee)}#modalSearch .modal-title{color:var(--text-color,#3c4858)}#modalSearch .close{color:var(--text-color,#3c4858);opacity:.7}#modalSearch .close:hover{opacity:1}#modalSearch #pagefind-search{--pagefind-ui-font:inherit;--pagefind-ui-text:var(--text-color, #3c4858);--pagefind-ui-background:var(--board-bg-color, #fff);--pagefind-ui-border:var(--line-color, #eee);--pagefind-ui-primary:var(--link-color, #0366d6);--pagefind-ui-tag:var(--board-bg-color, #fff);--pagefind-ui-border-radius:0.25rem;--pagefind-ui-border-width:1px;--pagefind-ui-scale:1}#modalSearch .pagefind-ui__form::before{display:none!important}#modalSearch .pagefind-ui__search-input{font-weight:400;font-size:1rem;padding:.5rem .75rem!important;border:none!important;border-bottom:1px solid var(--link-color,#0366d6)!important;border-radius:0!important;background-color:transparent!important;color:var(--text-color,#3c4858)!important;box-shadow:none!important;width:100%!important}#modalSearch .pagefind-ui__search-input:focus{outline:none!important;border-bottom:2px solid var(--link-color,#0366d6)!important}#modalSearch .pagefind-ui__search-input::placeholder{color:var(--text-color,#3c4858);opacity:.6}#modalSearch .pagefind-ui__result-title a{color:var(--link-color,#0366d6);text-decoration:none}#modalSearch .pagefind-ui__result-title a:hover{color:var(--link-hover-color,#30a9de);text-decoration:underline}#modalSearch .pagefind-ui__result-link{display:block;color:inherit;text-decoration:none}#modalSearch .pagefind-ui__result-link:hover{color:inherit;text-decoration:none}#modalSearch .pagefind-ui__result{cursor:pointer}#modalSearch .pagefind-ui__result:hover{background-color:var(--board-bg-color-hover,rgba(0,0,0,5%))}#modalSearch mark{background-color:var(--link-color,#0366d6);color:#fff;padding:0 2px;border-radius:2px}#modalSearch .pagefind-ui__results{margin-top:1rem}#modalSearch .pagefind-ui__result{padding:.75rem 0;border-bottom:1px solid var(--line-color,#eee)}#modalSearch .pagefind-ui__result:last-child{border-bottom:none}[data-user-color-scheme=dark] #modalSearch .modal-content{background-color:var(--board-bg-color,#252d38);color:var(--text-color,#c4c6c9)}[data-user-color-scheme=dark] #modalSearch .modal-header{border-bottom-color:var(--line-color,#435266)}[data-user-color-scheme=dark] #modalSearch .modal-title{color:var(--text-color,#c4c6c9)}[data-user-color-scheme=dark] #modalSearch .close{color:var(--text-color,#c4c6c9)}[data-user-color-scheme=dark] #modalSearch .pagefind-ui__search-input::placeholder{color:var(--text-color,#c4c6c9)}[data-user-color-scheme=dark] #modalSearch .pagefind-ui__result{border-bottom-color:var(--line-color,#435266)}</style><script src=/js/main.js defer></script></body></html>

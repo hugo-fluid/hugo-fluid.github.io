@@ -9,7 +9,8 @@
 <span>文檔</span>
 <i class="iconfont icon-arrow-down dropdown-arrow"></i></a><div class=dropdown-menu aria-labelledby=navbarDropdown><a class=dropdown-item href=/tw/tw/docs/ target=_blank><span>快速開始</span>
 </a><a class=dropdown-item href=/tw/tw/docs/config/ target=_blank><span>配置指南</span>
-</a><a class=dropdown-item href=/tw/tw/docs/features/ target=_blank><span>主題特性</span></a></div></li><li class=nav-item id=search-btn><a class=nav-link target=_self href=javascript:; data-toggle=modal data-target=#modalSearch aria-label=Search><i class="iconfont icon-search"></i></a></li><li class=nav-item id=language-switch-btn><div class=language-dropdown><a class="nav-link language-current" href=javascript:; aria-label="Switch to" title="Switch to"><span class=language-code>繁</span>
+</a><a class=dropdown-item href=/tw/tw/docs/features/ target=_blank><span>主題特性</span>
+</a><a class=dropdown-item href=/tw/tw/docs/dropdown-menu/ target=_blank><span>下拉選單配置</span></a></div></li><li class=nav-item id=search-btn><a class=nav-link target=_self href=javascript:; data-toggle=modal data-target=#modalSearch aria-label=Search><i class="iconfont icon-search"></i></a></li><li class=nav-item id=language-switch-btn><div class=language-dropdown><a class="nav-link language-current" href=javascript:; aria-label="Switch to" title="Switch to"><span class=language-code>繁</span>
 <i class="iconfont icon-arrowdown language-arrow"></i></a><div class=language-menu><a class=language-item href=/zh/post/getting-started/ title="Switch to 简体中文"><span class=language-code>简</span>
 <span class=language-name>简体中文</span>
 </a><a class=language-item href=/post/getting-started/ title="Switch to English"><span class=language-code>EN</span>
@@ -23,11 +24,11 @@
 <time datetime="2024-01-15 00:00" pubdate>LL a</time></span></div><div class="post-metas mt-1"><span class="post-meta mr-2"><i class="iconfont icon-chart" aria-hidden=true></i>
 89 words
 </span><span class="post-meta mr-2"><i class="iconfont icon-clock-fill" aria-hidden=true></i>
-1 mins</span></div><blockquote class=post-description>這是一篇關於如何使用 Hugo Fluid 主題的詳細指南。</blockquote><div class=markdown-body data-pagefind-body><h2 id=簡介>簡介</h2><p>Hugo Fluid 是一個基於 hexo-theme-fluid 改寫的 Material Design 風格 Hugo 部落格主題。</p><h2 id=安裝>安裝</h2><h3 id=方式一git-submodule>方式一：Git Submodule</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>git submodule add https://github.com/fluid-dev/hugo-theme-fluid.git themes/hugo-theme-fluid
+1 mins</span></div><blockquote class=post-description>這是一篇關於如何使用 Hugo Fluid 主題的詳細指南。</blockquote><div class=markdown-body data-pagefind-body><h2 id=簡介>簡介</h2><p>Hugo Fluid 是一個基於 hexo-theme-fluid 改寫的 Material Design 風格 Hugo 部落格主題。</p><h2 id=安裝>安裝</h2><h3 id=方式一git-submodule>方式一：Git Submodule</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>git submodule add https://github.com/ouraihub-hugo-themes/hugo-theme-fluid-dist.git themes/hugo-theme-fluid
 </span></span></code></pre></div><h3 id=方式二hugo-modules>方式二：Hugo Modules</h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>hugo mod init github.com/your-username/your-blog
 </span></span></code></pre></div><p>然後在 <code>hugo.toml</code> 中添加：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>module</span><span class=p>]</span>
 </span></span><span class=line><span class=cl><span class=p>[[</span><span class=nx>module</span><span class=p>.</span><span class=nx>imports</span><span class=p>]]</span>
-</span></span><span class=line><span class=cl><span class=nx>path</span> <span class=p>=</span> <span class=s2>&#34;github.com/fluid-dev/hugo-theme-fluid&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>path</span> <span class=p>=</span> <span class=s2>&#34;github.com/ouraihub-hugo-themes/hugo-theme-fluid-dist&#34;</span>
 </span></span></code></pre></div><h2 id=配置>配置</h2><p>在 <code>config/_default/params.toml</code> 中配置主題參數：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=c># 暗色模式</span>
 </span></span><span class=line><span class=cl><span class=p>[</span><span class=nx>dark_mode</span><span class=p>]</span>
 </span></span><span class=line><span class=cl><span class=nx>enable</span> <span class=p>=</span> <span class=kc>true</span>
