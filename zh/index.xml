@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>首页 on Hugo Fluid 博客</title><link>https://hugo-fluid.github.io/zh/</link><description>Recent content in 首页 on Hugo Fluid 博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-fluid.github.io/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>多语言配置与语言切换指南</title><link>https://hugo-fluid.github.io/zh/post/language-switch-guide/</link><pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/language-switch-guide/</guid><description>&lt;p>Hugo Theme Fluid 提供了完整的多语言支持，让你可以轻松创建多语言博客。本文将详细介绍如何配置和使用语言切换功能。&lt;/p></description></item><item><title>Banner 背景图片配置完全指南</title><link>https://hugo-fluid.github.io/zh/post/banner-customization-guide/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/banner-customization-guide/</guid><description>&lt;p>本文将详细介绍如何为 Hugo Fluid 主题配置自定义 Banner 背景图片，包括使用 AI 生成图片、压缩优化、以及配置到主题中的完整流程。&lt;/p></description></item><item><title>导航栏子菜单配置指南</title><link>https://hugo-fluid.github.io/zh/post/submenu-guide/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/submenu-guide/</guid><description>&lt;p>Hugo Theme Fluid 支持导航栏下拉子菜单功能，让你可以更好地组织导航链接。本文将详细介绍如何配置和使用子菜单功能。&lt;/p></description></item><item><title>页脚配置指南</title><link>https://hugo-fluid.github.io/zh/post/footer-guide/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/footer-guide/</guid><description>&lt;p>本文介绍如何配置 Hugo Fluid 主题的页脚组件，包括自定义内容、PV/UV 统计和备案信息。&lt;/p></description></item><item><title>自定义页面配置与使用指南</title><link>https://hugo-fluid.github.io/zh/post/custom-page-guide/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/custom-page-guide/</guid><description>&lt;p>Hugo Theme Fluid 支持创建各种自定义页面，如文档页、社群页、服务条款页等。本文将详细介绍如何配置和使用自定义页面功能。&lt;/p></description></item><item><title>代码块功能演示</title><link>https://hugo-fluid.github.io/zh/post/code-block-demo/</link><pubDate>Mon, 23 Dec 2024 10:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/code-block-demo/</guid><description>&lt;p>本文展示 Hugo Fluid 主题的代码块功能。&lt;/p></description></item><item><title>锚点链接功能演示</title><link>https://hugo-fluid.github.io/zh/post/anchorjs-demo/</link><pubDate>Fri, 20 Dec 2024 10:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/anchorjs-demo/</guid><description>&lt;p>本文演示 Hugo Theme Fluid 的锚点链接功能。锚点链接可以让你方便地分享文章的特定章节。&lt;/p></description></item><item><title>图片懒加载演示</title><link>https://hugo-fluid.github.io/zh/post/lazyload-demo/</link><pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/lazyload-demo/</guid><description>&lt;p>这篇文章演示了图片懒加载功能。向下滚动页面，观察图片是如何按需加载的。&lt;/p></description></item><item><title>分页测试文章 6</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-6/</link><pubDate>Tue, 06 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-6/</guid><description>&lt;p>这是分页测试文章 6。&lt;/p></description></item><item><title>分页测试文章 5</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-5/</link><pubDate>Mon, 05 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-5/</guid><description>&lt;p>这是分页测试文章 5。&lt;/p></description></item><item><title>分页测试文章 4</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-4/</link><pubDate>Sun, 04 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-4/</guid><description>&lt;p>这是分页测试文章 4。&lt;/p></description></item><item><title>分页测试文章 3</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-3/</link><pubDate>Sat, 03 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-3/</guid><description>&lt;p>这是分页测试文章 3。&lt;/p></description></item><item><title>分页测试文章 2</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-2/</link><pubDate>Fri, 02 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-2/</guid><description>&lt;p>这是分页测试文章 2。&lt;/p></description></item><item><title>分页测试文章 1</title><link>https://hugo-fluid.github.io/zh/post/test-pagination-1/</link><pubDate>Thu, 01 Feb 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/test-pagination-1/</guid><description>&lt;p>这是分页测试文章 1。&lt;/p></description></item><item><title>打字机效果配置指南</title><link>https://hugo-fluid.github.io/zh/post/typing-effect-guide/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/typing-effect-guide/</guid><description>&lt;p>本文介绍如何在 Hugo Fluid 主题中配置和使用打字机效果。&lt;/p></description></item><item><title>Mermaid 流程图使用指南</title><link>https://hugo-fluid.github.io/zh/post/mermaid-demo/</link><pubDate>Tue, 16 Jan 2024 10:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/mermaid-demo/</guid><description>&lt;p>本文详细介绍 Hugo Fluid 主题的 Mermaid 流程图功能，包括配置方法、语法说明和丰富的示例。&lt;/p></description></item><item><title>数学公式使用指南</title><link>https://hugo-fluid.github.io/zh/post/math-demo/</link><pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/math-demo/</guid><description>&lt;p>本文详细介绍 Hugo Fluid 主题的数学公式功能，包括配置方法、语法说明和丰富的示例。&lt;/p></description></item><item><title>Hugo Fluid 主题使用指南</title><link>https://hugo-fluid.github.io/zh/post/getting-started/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/getting-started/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+&lt;p>Hugo Fluid 是一个基于 hexo-theme-fluid 改写的 Material Design 风格 Hugo 博客主题。&lt;/p></description></item><item><title>Markdown 语法示例</title><link>https://hugo-fluid.github.io/zh/post/markdown-syntax/</link><pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/markdown-syntax/</guid><description>&lt;p>这篇文章展示了 Markdown 的基本语法和 Hugo Fluid 主题的渲染效果。&lt;/p></description></item><item><title>Hello World</title><link>https://hugo-fluid.github.io/zh/post/hello-world/</link><pubDate>Mon, 01 Jan 2024 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/hello-world/</guid><description>&lt;p>欢迎使用 Hugo Theme Fluid！这是一个基于 hexo-theme-fluid 移植的 Material Design 风格博客主题。&lt;/p>
+&lt;h2 id="特性">特性&lt;/h2>
+&lt;ul>
+&lt;li>🎨 Material Design 风格&lt;/li>
+&lt;li>🌙 深色/浅色模式切换&lt;/li>
+&lt;li>🔍 本地搜索功能&lt;/li>
+&lt;li>📱 响应式设计&lt;/li>
+&lt;li>💬 多种评论系统支持&lt;/li>
+&lt;li>🌐 多语言支持&lt;/li>
+&lt;/ul>
+&lt;h2 id="代码高亮">代码高亮&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">function&lt;/span> &lt;span class="nx">hello&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;Hello, Fluid!&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">hello&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="数学公式">数学公式&lt;/h2>
+&lt;p>行内公式：$E = mc^2$&lt;/p>
+&lt;p>块级公式：&lt;/p>
+&lt;p>$$
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+$$&lt;/p>
+&lt;h2 id="图片">图片&lt;/h2>
+&lt;p>&lt;img 
+ src="https://hugo-fluid.github.io/img/default.png" 
+ srcset="https://hugo-fluid.github.io/img/loading.gif" 
+ lazyload
+ alt="示例图片"
+ loading="lazy"
+ decoding="async"
+ class="lazyload-image"
+ >&lt;/p>
+&lt;h2 id="引用">引用&lt;/h2>
+&lt;blockquote>
+&lt;p>这是一段引用文字。&lt;/p>
+&lt;p>— 作者&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="列表">列表&lt;/h2>
+&lt;ul>
+&lt;li>项目一&lt;/li>
+&lt;li>项目二&lt;/li>
+&lt;li>项目三&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>第一步&lt;/li>
+&lt;li>第二步&lt;/li>
+&lt;li>第三步&lt;/li>
+&lt;/ol>
+&lt;h2 id="表格">表格&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>功能&lt;/th>
+ &lt;th>状态&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>主题切换&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>本地搜索&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>评论系统&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>多语言&lt;/td>
+ &lt;td>✅&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>享受你的博客之旅！&lt;/p></description></item><item><title>关于</title><link>https://hugo-fluid.github.io/zh/about/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/about/</guid><description>&lt;h2 id="关于我">关于我&lt;/h2>
+&lt;p>这是关于页面的内容。你可以在这里介绍自己。&lt;/p>
+&lt;h2 id="关于本站">关于本站&lt;/h2>
+&lt;p>本站使用 &lt;a href="https://gohugo.io/">Hugo&lt;/a> 构建，主题为 &lt;a href="https://github.com/fluid-dev/hexo-theme-fluid">Fluid&lt;/a>。&lt;/p>
+&lt;h2 id="联系方式">联系方式&lt;/h2>
+&lt;ul>
+&lt;li>GitHub: &lt;a href="https://github.com">your-username&lt;/a>&lt;/li>
+&lt;li>Email: &lt;a href="mailto:your-email@example.com">your-email@example.com&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2023年6月测试文章</title><link>https://hugo-fluid.github.io/zh/post/archive-test-2023-06/</link><pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/archive-test-2023-06/</guid><description>&lt;p>这是用于测试归档分页功能的文章。&lt;/p></description></item><item><title>2023年1月测试文章</title><link>https://hugo-fluid.github.io/zh/post/archive-test-2023-01/</link><pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/archive-test-2023-01/</guid><description>&lt;p>这是用于测试归档分页功能的文章。&lt;/p></description></item><item><title>置顶文章示例</title><link>https://hugo-fluid.github.io/zh/post/sticky-post/</link><pubDate>Sun, 01 Jan 2023 08:00:00 +0800</pubDate><guid>https://hugo-fluid.github.io/zh/post/sticky-post/</guid><description>&lt;p>这是一篇置顶文章示例。&lt;/p>
+&lt;h2 id="置顶功能说明">置顶功能说明&lt;/h2>
+&lt;p>在文章的 front matter 中添加 &lt;code>sticky&lt;/code> 字段即可实现置顶：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nn">---&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;置顶文章&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">sticky&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nn">---&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>sticky&lt;/code> 值越大，排序越靠前&lt;/li>
+&lt;li>&lt;code>sticky: 1&lt;/code> 表示置顶&lt;/li>
+&lt;li>&lt;code>sticky: 2&lt;/code> 会排在 &lt;code>sticky: 1&lt;/code> 前面&lt;/li>
+&lt;/ul>
+&lt;h2 id="效果">效果&lt;/h2>
+&lt;p>置顶文章会：&lt;/p>
+&lt;ol>
+&lt;li>显示在文章列表最前面&lt;/li>
+&lt;li>标题前显示置顶图标&lt;/li>
+&lt;/ol>
+&lt;p>享受你的博客之旅！&lt;/p></description></item><item><title>2022年9月测试文章</title><link>https://hugo-fluid.github.io/zh/post/archive-test-2022-09/</link><pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/archive-test-2022-09/</guid><description>&lt;p>这是用于测试归档分页功能的文章。&lt;/p></description></item><item><title>2022年3月测试文章</title><link>https://hugo-fluid.github.io/zh/post/archive-test-2022-03/</link><pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/archive-test-2022-03/</guid><description>&lt;p>这是用于测试归档分页功能的文章。&lt;/p></description></item><item><title>2021年11月测试文章</title><link>https://hugo-fluid.github.io/zh/post/archive-test-2021-11/</link><pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/archive-test-2021-11/</guid><description>&lt;p>这是用于测试归档分页功能的文章。&lt;/p></description></item><item><title>2021年5月测试文章</title><link>https://hugo-fluid.github.io/zh/post/archive-test-2021-05/</link><pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate><guid>https://hugo-fluid.github.io/zh/post/archive-test-2021-05/</guid><description>&lt;p>这是用于测试归档分页功能的文章。&lt;/p></description></item></channel></rss>
